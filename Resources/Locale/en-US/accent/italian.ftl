@@ -16,10 +16,10 @@ accent-italian-words-3 = baby
 accent-italian-words-replace-3 = bambino
 
 accent-italian-words-4 = bad
-accent-italian-words-replace-4 = male
+accent-italian-words-replace-4 = brutto
 
 accent-italian-words-5 = bye
-accent-italian-words-replace-5 = arrivederci
+accent-italian-words-replace-5 = bye
 
 accent-italian-words-6 = captain
 accent-italian-words-replace-6 = capitano
@@ -152,3 +152,9 @@ accent-italian-words-replace-48 = and-a
 
 accent-italian-words-49 = very
 accent-italian-words-replace-49 = molto
+
+accent-italian-words-50 = goodbye
+accent-italian-words-replace-50 = arrivederci
+
+accent-italian-words-51 = yes
+accent-italian-words-replace-51 = si
