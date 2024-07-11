@@ -16,7 +16,7 @@ accent-italian-words-3 = baby
 accent-italian-words-replace-3 = bambino
 
 accent-italian-words-4 = bad
-accent-italian-words-replace-4 = molto male
+accent-italian-words-replace-4 = male
 
 accent-italian-words-5 = bye
 accent-italian-words-replace-5 = arrivederci
@@ -37,7 +37,7 @@ accent-italian-words-10 = dad
 accent-italian-words-replace-10 = pappa
 
 accent-italian-words-11 = good
-accent-italian-words-replace-11 = molto bene
+accent-italian-words-replace-11 = bene
 
 accent-italian-words-12 = greytide
 accent-italian-words-replace-12 = curvisti
@@ -149,3 +149,6 @@ accent-italian-words-replace-47 = am-a
 
 accent-italian-words-48 = and-a
 accent-italian-words-replace-48 = and-a
+
+accent-italian-words-49 = very
+accent-italian-words-replace-49 = molto
