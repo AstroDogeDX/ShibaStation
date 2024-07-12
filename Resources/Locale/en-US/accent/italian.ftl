@@ -19,7 +19,7 @@ accent-italian-words-4 = bad
 accent-italian-words-replace-4 = brutto
 
 accent-italian-words-5 = bye
-accent-italian-words-replace-5 = bye
+accent-italian-words-replace-5 = ciao
 
 accent-italian-words-6 = captain
 accent-italian-words-replace-6 = capitano
