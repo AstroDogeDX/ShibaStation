@@ -797,6 +797,10 @@
   components:
   - type: Pda
     id: ERTChaplainIDCard
+  - type: HealthAnalyzer
+    scanDelay: 1
+    scanningEndSound:
+      path: "/Audio/Items/Medical/healthscanner.ogg"
 
 - type: entity
   parent: ERTLeaderPDA
