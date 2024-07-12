@@ -793,7 +793,7 @@
   id: ERTChaplainPDA
   name: ERT Chaplain PDA
   suffix: Chaplain
-  description: Red for firepower, it's blessed.
+  description: Red for firepower, it's blessed. It also has a Health Analyzer, just in case.
   components:
   - type: Pda
     id: ERTChaplainIDCard
