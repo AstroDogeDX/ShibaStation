@@ -50,3 +50,6 @@ trait-cowboy-desc = You speak with a distinct cowboy accent!
 
 trait-italian-name = Italian accent
 trait-italian-desc = Mamma mia! You seem to have lived in space italy!
+
+trait-german-name = German accent
+trait-german-desc = Das ist ein Zirkus, mein Leben!
