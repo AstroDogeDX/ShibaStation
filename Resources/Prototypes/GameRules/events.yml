@@ -303,15 +303,15 @@
   parent: BaseStationEventShortDelay
   components:
   - type: StationEvent
-    weight: 5
+    weight: 3
     startAnnouncement: station-event-power-grid-check-start-announcement
     endAnnouncement: station-event-power-grid-check-end-announcement
     startAudio:
       path: /Audio/Announcements/power_off.ogg
       params:
        volume: -4
-    duration: 60
-    maxDuration: 120
+    duration: 20
+    maxDuration: 60
   - type: PowerGridCheckRule
 
 - type: entity
