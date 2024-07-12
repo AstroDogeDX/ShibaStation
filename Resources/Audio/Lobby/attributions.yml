@@ -13,6 +13,12 @@
   copyright: "Space Asshole by Chris Remo is used with special permission from the author, under the condition that the project remains non-commercial and open source. The author also requested that a link to his bandcamp be included: https://chrisremo.bandcamp.com/"
   source: "https://idlethumbs.bandcamp.com/track/space-asshole"
   # The source is a direct link the the track, but not the "main" bandcamp of the author. Hence the link is also included separately in the copyright.
+  
+- files: ["space_asshole_remastered.ogg"]
+  license: "Custom"
+  copyright: "Space Asshole by Chris Remo is used with special permission from the author, under the condition that the project remains non-commercial and open source. The author also requested that a link to his bandcamp be included: https://chrisremo.bandcamp.com/"
+  source: "https://idlethumbs.bandcamp.com/track/space-asshole"
+  # The source is a direct link the the track, but not the "main" bandcamp of the author. Hence the link is also included separately in the copyright.
 
 - files: ["absconditus.ogg"]
   license: "CC-BY-NC-SA-3.0"
@@ -68,3 +74,18 @@
   license: "CC-BY-NC-SA-3.0"
   copyright: "every light is blinking at once by Alexander Divine."
   source: "https://soundcloud.com/alexanderdivine/every-light-is-blinking-at-once"
+  
+- files: ["doge_adventure.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Doge Adventure by Jonti Picking (MrWeebl)."
+  source: "https://www.youtube.com/watch?v=sd4bqmP_460"
+  
+- files: ["title3-nmr.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Tintin on the Moon (Remix) by Noisemaker."
+  source: "https://www.youtube.com/watch?v=BY-1SrsLER0"
+  
+- files: ["most_mysterious_song.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "We literally do not know."
+  source: "https://youtu.be/zPGf4liO-KQ?si=rS6G3VVH2T8MKqwL"
