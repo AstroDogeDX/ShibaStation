@@ -1,6 +1,7 @@
 using System.Text.RegularExpressions;
 using Content.Server.Speech.Components;
 using Robust.Shared.Random;
+using System.Linq;
 
 namespace Content.Server.Speech.EntitySystems;
 
@@ -11,7 +12,7 @@ public sealed partial class GermanAccentSystem : EntitySystem
     [GeneratedRegex(@"(?<!\bthat)\bth", RegexOptions.IgnoreCase, "en-US")]
     private static partial Regex ThRegex();
 
-    [GeneratedRegex(@"w", RegexOptions.IgnoreCase, "en-US")]
+    [GeneratedRegex(@"(?<!o)w", RegexOptions.IgnoreCase, "en-US")]
     private static partial Regex WRegex();
 
     private static readonly Dictionary<string, string> DirectReplacements = new()
@@ -20,6 +21,12 @@ public sealed partial class GermanAccentSystem : EntitySystem
         { "yes", "ja" },
         { "no", "nein" },
         { "is", "ist" },
+        { "that", "das" },
+        { "good", "gut" },
+        { "i", "ich" },
+        { "a", "ein" },
+        { "german", "deutsch" },
+        { "english", "englisch" },
         { "please", "bitte" },
         { "thank you", "danke" },
         { "thanks", "danke" },
@@ -28,23 +35,68 @@ public sealed partial class GermanAccentSystem : EntitySystem
         { "bye", "tschüss" },
         { "friend", "freund" },
         { "beer", "bier" },
+        { "beers", "biere" },
         { "cheese", "käse" },
-        { "doctor", "arzt" },
-        { "food", "essen" },
+        { "doctor", "doktor" },
         { "house", "haus" },
         { "school", "schule" },
         { "security", "polizei" },
-        { "security officer", "polizeibeamter" },
+        { "sec", "polizei" },
+        { "security officer", "polizist" },
         { "scientist", "wissenschaftler" },
-        { "cargo", "fracht" },
+        { "cargo", "kargo" },
+        { "atmosphere", "atmosphäre" },
+        { "atmos", "atmosphäre" },
         { "engineering", "technik" },
+        { "engineer", "techniker" },
         { "chaplain", "kaplan" },
         { "captain", "kapitän" },
         { "passenger", "passagier" },
         { "shit", "scheiße" },
-        { "fuck", "verdammt" },
+        { "fuck", "fick" },
+        { "fucker", "ficker" },
         { "damn", "verdammt" },
-        { "ass", "arsch" }
+        { "ass", "arsch" },
+        { "arse", "arsch" },
+        { "asshole", "arschloch" },
+        { "arsehole", "arschloch" },
+        { "bitch", "schlampe" },
+        { "whore", "schlampe" },
+        { "shut up", "halt die Fresse" },
+        { "pig", "schwein" },
+        { "cat", "katze" },
+        { "dog", "hund" },
+        { "man", "mann" },
+        { "sir", "herr" },
+        { "mister", "herr" },
+        { "mr", "herr" },
+        { "woman", "frau" },
+        { "ma'am", "frau" },
+        { "lady", "frau" },
+        { "miss", "frau" },
+        { "mrs", "frau" },
+        { "money", "geld" },
+        { "water", "wasser" },
+        { "milk", "milch" },
+        { "bread", "brot" },
+        { "meat", "fleisch" },
+        { "fish", "fisch" },
+        { "car", "auto" },
+        { "book", "buch" },
+        { "paper", "papier" },
+        { "phone", "telefon" },
+        { "fax", "telefax" },
+        { "machine", "maschine" },
+        { "chair", "stuhl" },
+        { "bed", "bett" },
+        { "garden", "garten" },
+        { "city", "stadt" },
+        { "village", "dorf" },
+        { "country", "land" },
+        { "world", "welt" },
+        { "love", "liebe" },
+        { "hate", "hass" },
+        { "wonderful", "wunderbar" },
     };
 
     public override void Initialize()
@@ -55,42 +107,33 @@ public sealed partial class GermanAccentSystem : EntitySystem
 
     public string Accentuate(string message, GermanAccentComponent component)
     {
-        // Order:
-        // Do character manipulations first
-        // Then direct word/phrase replacements
-        // Then prefix/suffix
-
-        var msg = message;
-
-        // Character manipulations:
-        // Replace all 'th' with 'z' (excluding 'that')
-        msg = ThRegex().Replace(msg, "z");
-
-        // Replace all 'w' with 'v'
-        msg = WRegex().Replace(msg, "v");
-
-        // Capitalize the first character if the message starts with 'z' or 'v' due to replacement
-        if (!string.IsNullOrEmpty(msg) && (msg.StartsWith('z') || msg.StartsWith('v')))
-        {
-            msg = char.ToUpper(msg[0]) + msg.Substring(1);
-        }
-
-        // Direct word/phrase replacements:
+        // Step 1: Direct word/phrase replacements
         foreach (var (first, replace) in DirectReplacements)
         {
-            // Capitalize if at the start of the message
-            if (msg.StartsWith(first, StringComparison.OrdinalIgnoreCase))
-            {
-                var capitalizedReplace = char.ToUpper(replace[0]) + replace.Substring(1);
-                msg = Regex.Replace(msg, $@"(?<!\w){first}(?!\w)", capitalizedReplace, RegexOptions.IgnoreCase);
-            }
-            else
-            {
-                msg = Regex.Replace(msg, $@"(?<!\w){first}(?!\w)", replace, RegexOptions.IgnoreCase);
-            }
+            var regex = new Regex($@"(?<!\w){first}(?!\w)", RegexOptions.IgnoreCase);
+            message = regex.Replace(message, match => PreserveCase(match.Value, replace));
         }
 
-        return msg;
+        // Step 2: Character manipulations
+        // Replace all 'th' with 'z'
+        message = ThRegex().Replace(message, match => PreserveCase(match.Value, "z"));
+
+        // Capitalize the first character if the message starts with 'z' or 'v' due to replacement
+        if (!string.IsNullOrEmpty(message) && (message.StartsWith('z') || message.StartsWith('v')))
+        {
+            message = char.ToUpper(message[0]) + message.Substring(1);
+        }
+
+        return message;
+    }
+
+    private static string PreserveCase(string original, string replacement)
+    {
+        if (original.All(char.IsUpper))
+        {
+            return replacement.ToUpper();
+        }
+        return char.IsUpper(original[0]) ? char.ToUpper(replacement[0]) + replacement.Substring(1) : replacement;
     }
 
     private void OnAccentGet(EntityUid uid, GermanAccentComponent component, AccentGetEvent args)
