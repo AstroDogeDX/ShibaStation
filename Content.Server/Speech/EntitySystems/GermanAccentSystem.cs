@@ -23,7 +23,6 @@ public sealed partial class GermanAccentSystem : EntitySystem
         { "is", "ist" },
         { "that", "das" },
         { "good", "gut" },
-        { "i", "ich" },
         { "a", "ein" },
         { "german", "deutsch" },
         { "english", "englisch" },
