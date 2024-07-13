@@ -17,18 +17,33 @@
           emergencyShuttlePath: /Maps/Shuttles/emergency.yml
         - type: StationJobs
           availableJobs:
+            # command
             Captain: [ 1, 1 ]
+            HeadOfPersonnel: [ 1, 1 ]
+            # security
             HeadOfSecurity: [ 1, 1 ]
             SecurityOfficer: [ 1, 3 ]
-            CargoTechnician: [ 1, 2 ]
+            # supply
+            Quartermaster: [ 1, 1 ]
+            CargoTechnician: [ 1, 1 ]
+            # service
             Bartender: [ 1, 1 ]
             Botanist: [ 1, 1 ]
             Chef: [ 1, 1 ]
-            MedicalDoctor: [ 1, 2 ]
-            Chemist: [ 1, 1 ]
             Janitor: [ 1, 1 ]
-            Musician: [ 1, 1 ]
+            # medical
+            ChiefMedicalOfficer: [ 1, 1 ]
+            MedicalDoctor: [ 1, 1 ]
+            Chemist: [ 1, 1 ]
+            #science
+            ResearchDirector: [ 1, 1 ]
+            Scientist: [ 1, 1 ]
+            # engineering
+            ChiefEngineer: [ 1, 1 ]
             AtmosphericTechnician: [ 1, 1 ]
-            StationEngineer: [ 1, 2 ]
+            StationEngineer: [ 1, 1 ]
+            # civies
+            Mime: [ 1, 1 ]
+            Musician: [ 1, 1 ]
             Passenger: [ -1, -1 ]
 
