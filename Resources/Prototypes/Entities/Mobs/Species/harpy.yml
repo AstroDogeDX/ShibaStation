@@ -77,7 +77,7 @@
       - map: [ "mask" ]
       - map: [ "head" ]
       - map: [ "singingLayer" ]
-        sprite: DeltaV/Effects/harpysinger.rsi
+        sprite: Effects/harpysinger.rsi
         state: singing_music_notes
         visible: false
   - type: HumanoidAppearance
@@ -191,7 +191,7 @@
   components:
   - type: InstantAction
     checkCanInteract: false
-    icon: DeltaV/Interface/Actions/harpy_sing.png
+    icon: Interface/Actions/harpy_sing.png
     event: !type:OpenUiActionEvent
       key: enum.InstrumentUiKey.Key
 
@@ -202,6 +202,6 @@
   noSpawn: true
   components:
   - type: InstantAction
-    icon: DeltaV/Interface/Actions/harpy_syrinx.png
+    icon: Interface/Actions/harpy_syrinx.png
     itemIconStyle: BigAction
     event: !type:VoiceMaskSetNameEvent
