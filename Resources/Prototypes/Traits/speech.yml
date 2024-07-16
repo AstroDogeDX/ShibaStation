@@ -5,7 +5,6 @@
   name: trait-accentless-name
   description: trait-accentless-desc
   category: AccentTraits
-  cost: 1
   components:
   - type: Accentless
     removes:
