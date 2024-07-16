@@ -3,7 +3,8 @@
   name: trait-blindness-name
   description: trait-blindness-desc
   traitGear: WhiteCane
-  category: Disabilities
+  category: VisionTraits
+  cost: 1
   whitelist:
     components:
       - Blindable
@@ -15,7 +16,8 @@
   name: trait-poor-vision-name
   description: trait-poor-vision-desc
   traitGear: ClothingEyesGlasses
-  category: Disabilities
+  category: VisionTraits
+  cost: 1
   whitelist:
     components:
       - Blindable
