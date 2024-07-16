@@ -550,7 +550,8 @@
 
 # Harpy
 - type: emote
-  id: HonkHarpy
+  id: HarpyHonk
+  name: chat-emote-name-harpyhonk
   category: Vocal
   chatMessages: [honks.]
   chatTriggers:
@@ -561,7 +562,8 @@
     - honked.
 
 - type: emote
-  id: Ring
+  id: HarpyRing
+  name: chat-emote-name-harpyring
   category: Vocal
   chatMessages: [rings.]
   chatTriggers:
@@ -572,7 +574,8 @@
     - ringed.
 
 - type: emote
-  id: Pew
+  id: HarpyPew
+  name: chat-emote-name-harpypew
   category: Vocal
   chatMessages: [pews.]
   chatTriggers:
@@ -581,7 +584,8 @@
     - pew!
 
 - type: emote
-  id: Bang
+  id: HarpyBang
+  name: chat-emote-name-harpybang
   category: Vocal
   chatMessages: [bangs.]
   chatTriggers:
@@ -592,7 +596,8 @@
     - banged.
 
 - type: emote
-  id: Beep
+  id: HarpyBeep
+  name: chat-emote-name-harpybeep
   category: Vocal
   chatMessages: [beeps.]
   chatTriggers:
@@ -603,7 +608,8 @@
     - beeped.
 
 - type: emote
-  id: Rev
+  id: HarpyRev
+  name: chat-emote-name-harpyrev
   category: Vocal
   chatMessages: [revs.]
   chatTriggers:
@@ -625,7 +631,8 @@
 #    - clicked.
 
 - type: emote
-  id: Caw
+  id: HarpyCaw
+  name: chat-emote-name-harpycaw
   category: Vocal
   chatMessages: [caws.]
   chatTriggers:
@@ -636,7 +643,8 @@
     - cawed
 
 - type: emote
-  id: Chirp
+  id: HarpyChirp
+  name: chat-emote-name-harpychirp
   category: Vocal
   chatMessages: [chirps.]
   chatTriggers:
@@ -649,6 +657,7 @@
 #Vulpkanin
 - type: emote
   id: Bark
+  name: chat-emote-name-vulpbark
   category: Vocal
   chatMessages: [barks.]
   chatTriggers:
@@ -662,6 +671,7 @@
 
 - type: emote
   id: Snarl
+  name: chat-emote-name-vulpsnarl
   category: Vocal
   chatMessages: [snarls.]
   chatTriggers:
@@ -675,6 +685,7 @@
 
 - type: emote
   id: Whine
+  name: chat-emote-name-vulpwhine
   category: Vocal
   chatMessages: [whines.]
   chatTriggers:
@@ -686,11 +697,12 @@
     - whined!
     - whining.
 
-# Felinds
+# Felinids
 
 # vocal emotes
 - type: emote
   id: Hiss
+  name: chat-emote-name-felinidhiss
   category: Vocal
   chatMessages: [hisses.]
   chatTriggers:
@@ -702,6 +714,7 @@
 
 - type: emote
   id: Meow
+  name: chat-emote-name-felinidmeow
   category: Vocal
   chatMessages: [meows.]
   chatTriggers:
@@ -727,6 +740,7 @@
 
 - type: emote
   id: Mew
+  name: chat-emote-name-felinidmew
   category: Vocal
   chatMessages: [mews.]
   chatTriggers:
@@ -741,6 +755,7 @@
 
 - type: emote
   id: Growl
+  name: chat-emote-name-felinidgrowl
   category: Vocal
   chatMessages: [growls.]
   chatTriggers:
@@ -752,6 +767,7 @@
 
 - type: emote
   id: Purr
+  name: chat-emote-name-felinidpurr
   category: Vocal
   chatMessages: [purrs.]
   chatTriggers:

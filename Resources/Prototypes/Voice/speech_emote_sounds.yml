@@ -437,15 +437,15 @@
       collection: HarpyPurrs
     Ring:
       collection: HarpyRings
-    HonkHarpy:
+    HarpyHonk:
       collection: HarpyHonks
-    Pew:
+    HarpyPew:
       collection: HarpyPews
-    Bang:
+    HarpyBang:
       collection: HarpyBangs
-    Beep:
+    HarpyBeep:
       collection: HarpyBeeps
-    Rev:
+    HarpyRev:
       collection: HarpyRevs
 #    Click:
 #      collection: HarpyClicks
@@ -453,9 +453,9 @@
       collection: HarpyChitter
     Squeak:
       collection: HarpySqueak
-    Caw:
+    HarpyCaw:
       collection: HarpyCaws
-    Chirp:
+    HarpyChirp:
       collection: HarpyChirps
     Snarl:
       collection: VulpkaninSnarls
