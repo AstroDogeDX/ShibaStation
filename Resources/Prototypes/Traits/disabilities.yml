@@ -4,7 +4,6 @@
   description: trait-blindness-desc
   traitGear: WhiteCane
   category: VisionTraits
-  cost: 1
   whitelist:
     components:
       - Blindable
@@ -17,7 +16,6 @@
   description: trait-poor-vision-desc
   traitGear: ClothingEyesGlasses
   category: VisionTraits
-  cost: 1
   whitelist:
     components:
       - Blindable
