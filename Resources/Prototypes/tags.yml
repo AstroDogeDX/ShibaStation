@@ -1351,3 +1351,8 @@
   id: WriteIgnoreStamps
 
 # ALPHABETICAL
+
+# Delta-V/Nyanotrasen Stuff
+
+- type: Tag
+  id: HidesHarpyWings
