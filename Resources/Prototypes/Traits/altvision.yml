@@ -2,6 +2,7 @@
   id: UltraVision
   name: trait-ultravision-name
   description: trait-ultravision-desc
+  category: Disabilities
   components:
     - type: UltraVision
 
@@ -9,12 +10,14 @@
   id: DogVision
   name: trait-deuteranopia-name
   description: trait-deuteranopia-desc
+  category: Disabilities
   components:
     - type: DogVision
 
 - type: trait
   id: DefaultVision
   name: trait-defaultvision-name
-  description: trait-defaultvision-desc
+  description: trait-blindness-desc
+  category: Disabilities
   components:
     - type: DefaultVision
