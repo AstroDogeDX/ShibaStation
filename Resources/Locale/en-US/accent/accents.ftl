@@ -98,7 +98,11 @@ accent-words-slimes-4 = Bluuump...
 accent-words-slimes-5 = Blabl blump!
 
 # Mothroach
-accent-words-mothroach-1 = Chirp!
+accent-words-mothroach-1 = Squeak!
+accent-words-mothroach-2 = Chirp!
+accent-words-mothroach-3 = Peep!
+accent-words-mothroach-4 = Eeee!
+accent-words-mothroach-5 = Eep!
 
 # Crab
 accent-words-crab-1 = Click.
@@ -124,3 +128,4 @@ accent-words-nymph-1 = Chirp!
 accent-words-nymph-2 = Churr...
 accent-words-nymph-3 = Cheep?
 accent-words-nymph-4 = Chrrup!
+

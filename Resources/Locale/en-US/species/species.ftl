@@ -11,3 +11,4 @@ species-name-skeleton = Skeleton
 species-name-vox = Vox
 species-name-vulpkanin = Vulpkanin
 species-name-harpy = Harpy
+species-name-felinid = Felinid
