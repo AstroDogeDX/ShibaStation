@@ -20,6 +20,7 @@ using Robust.Server.GameObjects;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Content.Shared.Harpy.Components;
+using Content.Shared.Bed.Sleep;
 
 namespace Content.Server.Harpy
 {
@@ -134,7 +135,7 @@ namespace Content.Server.Harpy
             if (HasComp<ActiveInstrumentComponent>(uid) &&
                 TryComp<ActorComponent>(uid, out var actor))
             {
-                _instrument.ToggleInstrumentUi(uid, actor.PlayerSession);
+                _instrument.ToggleInstrumentUi(uid, uid);
             }
         }
 
