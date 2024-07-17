@@ -15,4 +15,4 @@
 - type: traitCategory
   id: VisionTraits
   name: trait-category-vision
-  maxTraitPoints: 3
+  maxTraitPoints: 1

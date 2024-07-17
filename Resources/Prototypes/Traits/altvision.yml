@@ -21,6 +21,5 @@
   name: trait-defaultvision-name
   description: trait-defaultvision-desc
   category: VisionTraits
-  cost: 1
   components:
     - type: DefaultVision
