@@ -697,6 +697,21 @@
     - whined!
     - whining.
 
+- type: emote
+  id: Howl
+  name: chat-emote-name-vulphowl
+  category: Vocal
+  chatMessages: [howls.]
+  chatTriggers:
+  - howl.
+  - howl!
+  - howls.
+  - howls!
+  - howled.
+  - howled!
+  - howling.
+  - howling!
+
 # Felinids
 
 # vocal emotes

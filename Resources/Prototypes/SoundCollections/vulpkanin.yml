@@ -11,6 +11,8 @@
   - /Audio/Voice/Vulpkanin/dog_growl1.ogg
   - /Audio/Voice/Vulpkanin/dog_growl2.ogg
   - /Audio/Voice/Vulpkanin/dog_growl3.ogg
+  - /Audio/Voice/Vulpkanin/dog_growl4.ogg
+  - /Audio/Voice/Vulpkanin/dog_growl5.ogg
 
 - type: soundCollection
   id: VulpkaninSnarls
@@ -24,3 +26,7 @@
   files:
   - /Audio/Voice/Vulpkanin/dog_whine.ogg
 
+- type: soundCollection
+  id: VulpkaninHowl
+  files:
+  - /Audio/Voice/Vulpkanin/howl.ogg  

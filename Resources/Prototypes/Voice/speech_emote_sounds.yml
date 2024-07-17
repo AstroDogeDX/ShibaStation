@@ -483,6 +483,10 @@
       collection: Whistles
     Sigh:
       collection: MaleSigh
+    Snap:
+      collection: Snaps
+      params:
+        volume: -6
     Growl:
       collection: VulpkaninGrowls
     Snarl:
@@ -491,6 +495,8 @@
       collection: VulpkaninBarks
     Whine:
       collection: VulpkaninWhines
+    Howl:
+      collection: VulpkaninHowl
 
 - type: emoteSounds
   id: FemaleVulpkanin
@@ -511,6 +517,10 @@
       collection: Whistles
     Sigh:
       collection: FemaleSigh
+    Snap:
+      collection: Snaps
+      params:
+        volume: -6
     Growl:
       collection: VulpkaninGrowls
     Snarl:
@@ -519,6 +529,8 @@
       collection: VulpkaninBarks
     Whine:
       collection: VulpkaninWhines
+    Howl:
+      collection: VulpkaninHowl
 
 # species
 - type: emoteSounds
