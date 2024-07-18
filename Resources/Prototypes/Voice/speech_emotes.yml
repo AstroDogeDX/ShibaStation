@@ -305,10 +305,20 @@
   chatMessages: ["chat-emote-msg-snap"] # snaps <{THEIR($ent)}> fingers?
   chatTriggers:
     - snap
+    - snap.
+    - snap!
     - snaps
+    - snaps.
+    - snaps!
     - snapping
+    - snapping.
+    - snapping!
     - snapped
+    - snapped.
+    - snapped!
     - snap fingers
+    - snap fingers.
+    - snap fingers!
     - snaps fingers
     - snaps fingers.
     - snaps fingers!
@@ -316,7 +326,11 @@
     - snaps their fingers.
     - snaps their fingers!
     - snapping fingers
+    - snapping fingers.
+    - snapping fingers!
     - snapped fingers
+    - snapped fingers.
+    - snapped fingers!
 
 - type: emote
   id: Salute
@@ -549,17 +563,6 @@
     - pinging!
 
 # Harpy
-- type: emote
-  id: HarpyHonk
-  name: chat-emote-name-harpyhonk
-  category: Vocal
-  chatMessages: [honks.]
-  chatTriggers:
-    - honk.
-    - honks.
-    - honks!
-    - honking.
-    - honked.
 
 - type: emote
   id: HarpyRing
@@ -596,18 +599,6 @@
     - banged.
 
 - type: emote
-  id: HarpyBeep
-  name: chat-emote-name-harpybeep
-  category: Vocal
-  chatMessages: [beeps.]
-  chatTriggers:
-    - beeps.
-    - beep.
-    - beep!
-    - beeping.
-    - beeped.
-
-- type: emote
   id: HarpyRev
   name: chat-emote-name-harpyrev
   category: Vocal
@@ -618,17 +609,6 @@
     - rev!
     - revving
     - revved
-
-#- type: emote
-#  id: Click
-#  category: Vocal
-#  chatMessages: [clicks.]
-#  chatTriggers:
-#    - clicks.
-#    - click.
-#    - click!
-#    - clicking.
-#    - clicked.
 
 - type: emote
   id: HarpyCaw
@@ -642,18 +622,6 @@
     - cawing
     - cawed
 
-- type: emote
-  id: HarpyChirp
-  name: chat-emote-name-harpychirp
-  category: Vocal
-  chatMessages: [chirps.]
-  chatTriggers:
-    - chirps.
-    - chirp.
-    - chirp!
-    - chirping.
-    - chirped.
-
 #Vulpkanin
 - type: emote
   id: Bark
@@ -661,13 +629,18 @@
   category: Vocal
   chatMessages: [barks.]
   chatTriggers:
+    - bark
     - bark.
     - bark!
+    - barks
     - barks.
     - barks!
+    - barked
     - barked.
     - barked!
+    - barking
     - barking.
+    - barking!
 
 - type: emote
   id: Snarl
@@ -675,13 +648,18 @@
   category: Vocal
   chatMessages: [snarls.]
   chatTriggers:
+    - snarl
     - snarl.
     - snarl!
+    - snarls
     - snarls.
     - snarls!
+    - snarled
     - snarled.
     - snarled!
+    - snarling
     - snarling.
+    - snarling!
 
 - type: emote
   id: Whine
@@ -689,13 +667,18 @@
   category: Vocal
   chatMessages: [whines.]
   chatTriggers:
+    - whine
     - whine.
     - whine!
+    - whines
     - whines.
     - whines!
+    - whined
     - whined.
     - whined!
+    - whining
     - whining.
+    - whining!
 
 - type: emote
   id: Howl
@@ -703,12 +686,16 @@
   category: Vocal
   chatMessages: [howls.]
   chatTriggers:
+  - howl
   - howl.
   - howl!
+  - howls
   - howls.
   - howls!
+  - howled
   - howled.
   - howled!
+  - howling
   - howling.
   - howling!
 

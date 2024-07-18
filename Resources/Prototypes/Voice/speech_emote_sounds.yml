@@ -438,13 +438,13 @@
     Ring:
       collection: HarpyRings
     HarpyHonk:
-      collection: HarpyHonks
+      collection: Honk
     HarpyPew:
       collection: HarpyPews
     HarpyBang:
       collection: HarpyBangs
     HarpyBeep:
-      collection: HarpyBeeps
+      collection: Beep
     HarpyRev:
       collection: HarpyRevs
 #    Click:
@@ -456,7 +456,7 @@
     HarpyCaw:
       collection: HarpyCaws
     HarpyChirp:
-      collection: HarpyChirps
+      collection: Chirp
     Snarl:
       collection: VulpkaninSnarls
     Bark:
@@ -485,8 +485,8 @@
       collection: MaleSigh
     Snap:
       collection: Snaps
-      params:
-        volume: -6
+    Snore:
+      collection: Snores
     Growl:
       collection: VulpkaninGrowls
     Snarl:
@@ -519,8 +519,8 @@
       collection: FemaleSigh
     Snap:
       collection: Snaps
-      params:
-        volume: -6
+    Snore:
+      collection: Snores
     Growl:
       collection: VulpkaninGrowls
     Snarl:
@@ -601,8 +601,6 @@
       collection: Claps
     Snap:
       collection: Snaps
-      params:
-        volume: -6
     Salute:
       collection: Salutes
 
