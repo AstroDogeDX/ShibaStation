@@ -24,6 +24,9 @@ public sealed partial class GermanAccentSystem : EntitySystem
         { "that", "das" },
         { "good", "gut" },
         { "a", "ein" },
+        { "my", "mein" },
+        { "god", "gott" },
+        { "bless you", "gesundheit" },
         { "german", "deutsch" },
         { "english", "englisch" },
         { "please", "bitte" },
@@ -96,6 +99,12 @@ public sealed partial class GermanAccentSystem : EntitySystem
         { "love", "liebe" },
         { "hate", "hass" },
         { "wonderful", "wunderbar" },
+        { "naked", "nackt" },
+        { "cow", "kuh" },
+        { "blue", "blau" },
+        { "green", "grün" },
+        { "new", "neu" },
+        { "morning", "morgen" }
     };
 
     public override void Initialize()
