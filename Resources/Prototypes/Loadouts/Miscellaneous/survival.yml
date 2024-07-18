@@ -18,6 +18,9 @@
     - Human
     - Moth
     - Reptilian
+    - Vulpkanin
+    - Harpy
+    - Felinid
 
 - type: loadoutEffectGroup
   id: EffectSpeciesVox
