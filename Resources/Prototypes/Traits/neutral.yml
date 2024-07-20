@@ -1,0 +1,9 @@
+- type: trait
+  id: ScottishAccent
+  name: trait-scottish-accent-name
+  description: trait-scottish-accent-desc
+  category: AccentTraits
+  cost: 1
+  traitGear: BagpipeInstrument
+  components:
+    - type: ScottishAccent

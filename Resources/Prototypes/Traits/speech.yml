@@ -4,8 +4,7 @@
   id: Accentless
   name: trait-accentless-name
   description: trait-accentless-desc
-  category: SpeechTraits
-  cost: 0
+  category: AccentTraits
   components:
   - type: Accentless
     removes:
@@ -20,7 +19,7 @@
   id: SouthernAccent
   name: trait-southern-name
   description: trait-southern-desc
-  category: SpeechTraits
+  category: AccentTraits
   cost: 1
   components:
     - type: SouthernAccent
@@ -29,7 +28,7 @@
   id: PirateAccent
   name: trait-pirate-accent-name
   description: trait-pirate-accent-desc
-  category: SpeechTraits
+  category: AccentTraits
   cost: 1
   components:
     - type: PirateAccent
@@ -38,7 +37,7 @@
   id: CowboyAccent
   name: trait-cowboy-name
   description: trait-cowboy-desc
-  category: SpeechTraits
+  category: AccentTraits
   cost: 1
   components:
     - type: ReplacementAccent
@@ -48,17 +47,16 @@
   id: ItalianAccent
   name: trait-italian-name
   description: trait-italian-desc
-  category: SpeechTraits
+  category: AccentTraits
   cost: 1
   components:
-    - type: ReplacementAccent
-      accent: italian
+    - type: ItalianAccent
 
 - type: trait
   id: GermanAccent
   name: trait-german-name
   description: trait-german-desc
-  category: SpeechTraits
+  category: AccentTraits
   cost: 1
   components:
     - type: GermanAccent

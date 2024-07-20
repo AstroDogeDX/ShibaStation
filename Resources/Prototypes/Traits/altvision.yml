@@ -1,0 +1,25 @@
+- type: trait
+  id: UltraVision
+  name: trait-ultravision-name
+  description: trait-ultravision-desc
+  category: VisionTraits
+  cost: 1
+  components:
+    - type: UltraVision
+
+- type: trait
+  id: DogVision
+  name: trait-deuteranopia-name
+  description: trait-deuteranopia-desc
+  category: VisionTraits
+  cost: 1
+  components:
+    - type: DogVision
+
+- type: trait
+  id: DefaultVision
+  name: trait-defaultvision-name
+  description: trait-defaultvision-desc
+  category: VisionTraits
+  components:
+    - type: DefaultVision

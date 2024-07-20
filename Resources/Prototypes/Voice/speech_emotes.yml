@@ -305,10 +305,20 @@
   chatMessages: ["chat-emote-msg-snap"] # snaps <{THEIR($ent)}> fingers?
   chatTriggers:
     - snap
+    - snap.
+    - snap!
     - snaps
+    - snaps.
+    - snaps!
     - snapping
+    - snapping.
+    - snapping!
     - snapped
+    - snapped.
+    - snapped!
     - snap fingers
+    - snap fingers.
+    - snap fingers!
     - snaps fingers
     - snaps fingers.
     - snaps fingers!
@@ -316,7 +326,11 @@
     - snaps their fingers.
     - snaps their fingers!
     - snapping fingers
+    - snapping fingers.
+    - snapping fingers!
     - snapped fingers
+    - snapped fingers.
+    - snapped fingers!
 
 - type: emote
   id: Salute
@@ -547,3 +561,221 @@
     - pinging
     - pinging.
     - pinging!
+
+# Harpy
+
+- type: emote
+  id: HarpyRing
+  name: chat-emote-name-harpyring
+  category: Vocal
+  chatMessages: [rings.]
+  chatTriggers:
+    - ring.
+    - rings.
+    - rings!
+    - ringing.
+    - ringed.
+
+- type: emote
+  id: HarpyPew
+  name: chat-emote-name-harpypew
+  category: Vocal
+  chatMessages: [pews.]
+  chatTriggers:
+    - pew.
+    - pews.
+    - pew!
+
+- type: emote
+  id: HarpyBang
+  name: chat-emote-name-harpybang
+  category: Vocal
+  chatMessages: [bangs.]
+  chatTriggers:
+    - bangs.
+    - bang.
+    - bang!
+    - banging.
+    - banged.
+
+- type: emote
+  id: HarpyRev
+  name: chat-emote-name-harpyrev
+  category: Vocal
+  chatMessages: [revs.]
+  chatTriggers:
+    - revs.
+    - rev.
+    - rev!
+    - revving
+    - revved
+
+- type: emote
+  id: HarpyCaw
+  name: chat-emote-name-harpycaw
+  category: Vocal
+  chatMessages: [caws.]
+  chatTriggers:
+    - caws.
+    - caw.
+    - caw!
+    - cawing
+    - cawed
+
+#Vulpkanin
+- type: emote
+  id: Bark
+  name: chat-emote-name-vulpbark
+  category: Vocal
+  chatMessages: [barks.]
+  chatTriggers:
+    - bark
+    - bark.
+    - bark!
+    - barks
+    - barks.
+    - barks!
+    - barked
+    - barked.
+    - barked!
+    - barking
+    - barking.
+    - barking!
+
+- type: emote
+  id: Snarl
+  name: chat-emote-name-vulpsnarl
+  category: Vocal
+  chatMessages: [snarls.]
+  chatTriggers:
+    - snarl
+    - snarl.
+    - snarl!
+    - snarls
+    - snarls.
+    - snarls!
+    - snarled
+    - snarled.
+    - snarled!
+    - snarling
+    - snarling.
+    - snarling!
+
+- type: emote
+  id: Whine
+  name: chat-emote-name-vulpwhine
+  category: Vocal
+  chatMessages: [whines.]
+  chatTriggers:
+    - whine
+    - whine.
+    - whine!
+    - whines
+    - whines.
+    - whines!
+    - whined
+    - whined.
+    - whined!
+    - whining
+    - whining.
+    - whining!
+
+- type: emote
+  id: Howl
+  name: chat-emote-name-vulphowl
+  category: Vocal
+  chatMessages: [howls.]
+  chatTriggers:
+  - howl
+  - howl.
+  - howl!
+  - howls
+  - howls.
+  - howls!
+  - howled
+  - howled.
+  - howled!
+  - howling
+  - howling.
+  - howling!
+
+# Felinids
+
+# vocal emotes
+- type: emote
+  id: Hiss
+  name: chat-emote-name-felinidhiss
+  category: Vocal
+  chatMessages: [hisses.]
+  chatTriggers:
+    - hiss.
+    - hisses.
+    - hisses!
+    - hissing.
+    - hissed.
+
+- type: emote
+  id: Meow
+  name: chat-emote-name-felinidmeow
+  category: Vocal
+  chatMessages: [meows.]
+  chatTriggers:
+    - meow.
+    - meow!
+    - meows.
+    - meows~
+    - meows!
+    - meowing.
+    - meowed.
+    - miau.
+    - miaus.
+    - miaus!
+    - nya.
+    - nyas.
+    - nyas!
+    - mraow.
+    - mraow!
+    - mraow~
+    - mraows.
+    - mraows!
+    - mraows~
+
+- type: emote
+  id: Mew
+  name: chat-emote-name-felinidmew
+  category: Vocal
+  chatMessages: [mews.]
+  chatTriggers:
+    - mew.
+    - mew!
+    - mew~
+    - mews.
+    - mews!
+    - mews~
+    - mewing.
+    - mewed.
+
+- type: emote
+  id: Growl
+  name: chat-emote-name-felinidgrowl
+  category: Vocal
+  chatMessages: [growls.]
+  chatTriggers:
+    - growl.
+    - growls.
+    - growls!
+    - growling.
+    - growled.
+
+- type: emote
+  id: Purr
+  name: chat-emote-name-felinidpurr
+  category: Vocal
+  chatMessages: [purrs.]
+  chatTriggers:
+    - purr.
+    - purrs.
+    - purrs~
+    - purrs!
+    - purring.
+    - purred.

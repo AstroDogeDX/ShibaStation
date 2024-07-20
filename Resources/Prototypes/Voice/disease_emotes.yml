@@ -3,6 +3,16 @@
   name: chat-emote-name-sneeze
   category: Vocal
   chatMessages: ["chat-emote-msg-sneeze"]
+  chatTriggers:
+    - sneeze
+    - sneezes
+    - sneezed
+    - sneeze.
+    - sneezes.
+    - sneezed.
+    - sneeze!
+    - sneezes!
+    - sneezed!
 
 - type: emote
   id: Cough
@@ -19,6 +29,13 @@
   chatTriggers:
     - cough
     - coughs
+    - coughed
+    - cough.
+    - coughs.
+    - coughed.
+    - cough!
+    - coughs!
+    - coughed!
 
 - type: emote
   id: CatMeow
@@ -59,9 +76,26 @@
   chatTriggers:
     - yawn
     - yawns
+    - yawned
+    - yawn.
+    - yawns.
+    - yawned.
+    - yawn!
+    - yawns!
+    - yawned!
 
 - type: emote
   id: Snore
   name: chat-emote-name-snore
   category: Vocal
   chatMessages: ["chat-emote-msg-snore"]
+  chatTriggers:
+    - snore
+    - snores
+    - snored
+    - snore.
+    - snores.
+    - snored.
+    - snore!
+    - snores!
+    - snored!

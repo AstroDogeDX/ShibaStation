@@ -29,6 +29,11 @@ chat-emote-name-monkeyscreeches = Monkey Screeches
 chat-emote-name-robotbeep = Robot
 chat-emote-name-yawn = Yawn
 chat-emote-name-snore = Snore
+chat-emote-name-vulpbark = Bark
+chat-emote-name-vulpsnarl = Snarl
+chat-emote-name-vulpwhine = Whine
+chat-emote-name-vulphowl = Howl
+chat-emote-name-felinidgrowl = Growl
 
 # Message
 chat-emote-msg-scream = screams!

@@ -27,7 +27,7 @@ trait-unrevivable-desc = You are unable to be revived by defibrillators.
 trait-pirate-accent-name = Pirate accent
 trait-pirate-accent-desc = You can't stop speaking like a pirate!
 
-trait-accentless-name = Accentless
+trait-accentless-name = * No Species Accent
 trait-accentless-desc = You don't have the accent that your species would usually have
 
 trait-frontal-lisp-name = Frontal lisp
@@ -53,3 +53,20 @@ trait-italian-desc = Mamma mia! You seem to have lived in space italy!
 
 trait-german-name = German accent
 trait-german-desc = Das ist ein Zirkus, mein Leben!
+
+trait-scottish-accent-name = Scottish Accent
+trait-scottish-accent-desc = Fer tha folk who come frae Hielan clan.
+
+trait-ultravision-name = Ultraviolet Vision
+trait-ultravision-desc = Whether through custom bionic eyes, random mutation,
+                         or being a Harpy, you perceive the world with ultraviolet light.
+
+trait-deuteranopia-name = Deuteranopia
+trait-deuteranopia-desc = Whether through custom bionic eyes, random mutation,
+                          or being a Vulpkanin, you have red–green colour blindness.
+
+trait-defaultvision-name = * No Species Vision
+trait-defaultvision-desc = You lack any vision variation from the norm for a non-human species.
+
+trait-uncloneable-name = Uncloneable
+trait-uncloneable-desc = Cannot be cloned

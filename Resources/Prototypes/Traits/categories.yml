@@ -6,3 +6,13 @@
   id: SpeechTraits
   name: trait-category-speech
   maxTraitPoints: 2
+
+- type: traitCategory
+  id: AccentTraits
+  name: trait-category-accent
+  maxTraitPoints: 1
+
+- type: traitCategory
+  id: VisionTraits
+  name: trait-category-vision
+  maxTraitPoints: 1
