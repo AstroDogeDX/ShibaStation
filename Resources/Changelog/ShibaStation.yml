@@ -1,0 +1,141 @@
+Entries:
+- author: AstroDoge
+  changes:
+  - message: FINALLY added a ShibaStation changelog! Now I just have to remember to update it...
+    type: Add
+  id: 23
+  time: '2024-07-20T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: Changed the Italian accent from a word-replacement accent to a full blown component-driven accent. It's molto bene!
+    type: Tweak
+  id: 22
+  time: '2024-07-18T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: Added lots more German cognates to the German accent, hopefully it's not too much for people to understand...
+    type: Add
+  id: 21
+  time: '2024-07-18T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: New species weren't issued a survival box, now they are. That's a PR disaster averted...
+    type: Fix
+  id: 20
+  time: '2024-07-18T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: Various emotes for all species have had their trigger words adjusted/added. Now you can sneeze in your friends face on command!
+    type: Tweak
+  id: 19
+  time: '2024-07-18T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: Traits menu has been adjusted, new traits added from Delta-V's species code and certain nomenclature changed to be more accurate/clear.
+    type: Tweak
+  id: 18
+  time: '2024-07-17T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: Vulpkanin species added and functional!
+    type: Add
+  id: 17
+  time: '2024-07-16T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: Ported over A LOT of the custom species code from Delta-V pre-AGPLv3 license change manually. Honestly it's way too much to cover in the changelog - see the git commits if you're really that interested.'
+    type: Add
+  id: 16
+  time: '2024-07-16T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: Maid uniforms are now selectable in the Jani loadout as well as available normally in the JaniDrobe and can be printed in the uniform lathe.
+    type: Add
+  id: 15
+  time: '2024-07-15T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: AI art for the lobby, replacing the default stuff. It's purely temporary but is "good enough" for now.
+    type: Add
+  id: 14
+  time: '2024-07-14T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: Reach now has better role slots for HoDs and also an actual science team since there wasn't one? Dafuq.
+    type: Tweak
+  id: 13
+  time: '2024-07-14T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: Lowered some min player count requirements for maps due to current low pop situation.
+    type: Tweak
+  id: 12
+  time: '2024-07-14T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: More changes to the German Accent!
+    type: Tweak
+  id: 11
+  time: '2024-07-13T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: Reduced the probability and length of the Power Grid Check event to be less annoying on low pop without totally nerfing its usefulness for tiding.
+    type: Tweak
+  id: 10
+  time: '2024-07-13T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: Chaplain (and ERT)'s PDA can be used as a health scanner now.
+    type: Tweak
+  id: 9
+  time: '2024-07-12T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: Added 'German Accent' as a vocal trait!
+    type: Add
+  id: 8
+  time: '2024-07-12T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: Added/changed/removed lobby music. New tunes, baby!
+    type: Add
+  id: 7
+  time: '2024-07-12T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: Added a ShibaStation logo! Kinda temporary, but it'll do.
+    type: Add
+  id: 6
+  time: '2024-07-12T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: Reduced playtime requirements for all roles, to roughly 1-2 shifts length.
+    type: Tweak
+  id: 5
+  time: '2024-07-12T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: Fixed the Italian accent incorrectly using 'molto' all the time.
+    type: Fix
+  id: 4
+  time: '2024-07-11T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: Fixed improper capitalisation on the pizza party gift event message.
+    type: Fix
+  id: 3
+  time: '2024-07-11T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: Skeletons can be selected at round start as a species - for testing and giggles.
+    type: Add
+  id: 2
+  time: '2024-07-09T00:00:00.0000000+00:00'
+- author: AstroDoge
+  changes:
+  - message: ShibaStation is born!
+    type: Add
+  id: 1
+  time: '2024-07-09T00:00:00.0000000+00:00'
+Name: ShibaStation
+Order: 1
