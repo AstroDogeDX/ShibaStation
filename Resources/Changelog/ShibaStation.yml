@@ -1,6 +1,12 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Added semen.
+    type: Add
+  id: 24
+  time: '2024-07-22T17:29:11.337Z'
+- author: AstroDoge
+  changes:
   - message: FINALLY added a ShibaStation changelog! Now I just have to remember to update it...
     type: Add
   id: 23

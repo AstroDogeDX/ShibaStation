@@ -248,3 +248,38 @@
         damage:
           types:
             Cellular: 2
+
+- type: reagent
+  id: Semen
+  name: reagent-name-semen
+  group: Biological
+  desc: reagent-desc-semen
+  physicalDesc: reagent-physical-desc-opaque
+  metamorphicSprite:
+    sprite: Objects/Consumable/Drinks/cumchalice.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  flavor: slightly-salty
+  color: "#F9F6F5"
+  slippery: false
+  recognizable: true
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+      - !type:SatiateHunger
+        factor: 1
+    Food:
+      effects:
+      # Based on apparently a real world study. We don't have a difference between volume and mass so it's just 5mu per 100u, or 0.05u.
+      # This contributes to an absolutely miniscule amount of healing, which is just funny to me.
+      - !type:AdjustReagent
+        reagent: Protein
+        amount: 0.05
+  footstepSound:
+    collection: FootstepSticky
+    params:
+      volume: 6

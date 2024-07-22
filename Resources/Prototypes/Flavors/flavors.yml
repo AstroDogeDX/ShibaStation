@@ -180,6 +180,11 @@
   description: flavor-base-mindful
 
 - type: flavor
+  id: slightly-salty
+  flavorType: Base
+  description: flavor-base-slightly-salty
+
+- type: flavor
   id: mustard
   flavorType: Complex
   description: flavor-complex-mustard
