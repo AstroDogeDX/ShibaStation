@@ -8,7 +8,6 @@ using Content.Shared.Maps;
 using Content.Shared.Mind;
 using Content.Shared.Mind.Components;
 using Content.Shared.Mobs;
-using Content.Shared.Mobs.Systems;
 using Content.Shared.Movement.Systems;
 using Content.Shared.NPC.Systems;
 using Content.Shared.Zombies;
@@ -28,7 +27,6 @@ public sealed partial class DragonSystem : EntitySystem
     [Dependency] private readonly SharedActionsSystem _actions = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
-    [Dependency] private readonly MobStateSystem _mobState = default!;
 
     private EntityQuery<CarpRiftsConditionComponent> _objQuery;
 
@@ -93,8 +91,7 @@ public sealed partial class DragonSystem : EntitySystem
                 }
             }
 
-            if (!_mobState.IsDead(uid))
-                comp.RiftAccumulator += frameTime;
+            comp.RiftAccumulator += frameTime;
 
             // Delete it, naughty dragon!
             if (comp.RiftAccumulator >= comp.RiftMaxAccumulator)

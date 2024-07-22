@@ -198,7 +198,6 @@ public sealed class FoodSystem : EntitySystem
             target: target,
             used: food)
         {
-            BreakOnHandChange = false,
             BreakOnMove = forceFeed,
             BreakOnDamage = true,
             MovementThreshold = 0.01f,

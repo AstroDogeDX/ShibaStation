@@ -30,7 +30,8 @@ namespace Content.IntegrationTests.Tests
         private static readonly string[] NoSpawnMaps =
         {
             "CentComm",
-            "Dart"
+            "Dart",
+            "NukieOutpost"
         };
 
         private static readonly string[] Grids =
@@ -53,6 +54,7 @@ namespace Content.IntegrationTests.Tests
             "Bagel",
             "Origin",
             "CentComm",
+            "NukieOutpost",
             "Box",
             "Europa",
             "Saltern",
