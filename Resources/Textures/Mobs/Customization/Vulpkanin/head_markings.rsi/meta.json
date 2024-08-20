@@ -53,8 +53,12 @@
       "directions": 4
     },
     {
-      "name": "vulpine-lines",
-      "directions": 4
+        "name": "vulpine-lines",
+        "directions": 4
+    },
+    {
+        "name": "pelt_head",
+        "directions": 4
     }
   ]
 }

@@ -93,6 +93,9 @@ marking-VulpHeadTigerFace = Vulpkanin Tiger stripes (face)
 marking-VulpHeadSlash-slash = Slash
 marking-VulpHeadSlash = Vulpkanin Slash
 
+marking-VulpPeltHead-pelt_head = Pelt
+marking-VulpPeltHead = Vulpkanin Pelt (head)
+
 
 marking-VulpTail-vulp = Vulpkanin tail (base)
 marking-VulpTail-vulp-fade = Vulpkanin tail (fade)
@@ -189,6 +192,9 @@ marking-VulpBellyFull = Vulpkanin Belly 1
 marking-VulpBellyFox-belly_fox = Belly
 marking-VulpBellyFox = Vulpkanin Belly 2
 
+marking-VulpPeltBody-pelt_body = Pelt
+marking-VulpPeltBody = Vulpkanin Pelt (chest)
+
 
 marking-VulpBodyPointsCrest-points_crest = Points (crest)
 marking-VulpBodyPointsCrest = Vulpkanin Points (crest)
@@ -212,9 +218,15 @@ marking-VulpPointsFadeLegs = Vulpkanin Points Legs (fade)
 marking-VulpPointsSharpLegs-points_sharp-legs = Points (sharp)
 marking-VulpPointsSharpLegs = Vulpkanin Points Legs (sharp)
 
+marking-VulpPeltLegs-pelt_legs = Pelt
+marking-VulpPeltLegs = Vulpkanin Pelt (legs)
+
 
 marking-VulpPointsHands-points_hands = Points Hands
 marking-VulpPointsHands = Vulpkanin Points Hands
+
+marking-VulpPeltHands-pelt_hands = Pelt
+marking-VulpPeltHands = Vulpkanin Pelt (hands)
 
 marking-VulpPointsCrestArms-points_crest-arms = Points (crest)
 marking-VulpPointsCrestArms = Vulpkanin Points Arms (crest)
@@ -224,6 +236,9 @@ marking-VulpPointsFadeArms = Vulpkanin Points Arms (fade)
 
 marking-VulpPointsSharpArms-points_sharp-arms = Points (sharp)
 marking-VulpPointsSharpArms = Vulpkanin Points Arms (sharp)
+
+marking-VulpPeltArms-pelt_arms = Pelt
+marking-VulpPeltArms = Vulpkanin Pelt (arms)
 
 
 marking-VulpHairAdhara = Adhara

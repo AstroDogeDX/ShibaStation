@@ -57,8 +57,24 @@
       "directions": 4
     },
     {
-      "name": "points_crest-legs",
-      "directions": 4
+        "name": "points_crest-legs",
+        "directions": 4
+    },
+    {
+        "name": "pelt_arms",
+        "directions": 4
+    },
+    {
+        "name": "pelt_body",
+        "directions": 4
+    },
+    {
+        "name": "pelt_hands",
+        "directions": 4
+    },
+    {
+        "name": "pelt_legs",
+        "directions": 4
     }
   ]
 }
