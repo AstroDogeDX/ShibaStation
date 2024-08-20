@@ -91,29 +91,29 @@ marking-EnferHeadTigerFace = Enferhunde (tiger face)
 marking-EnferHeadSlash-slash = Slash head
 marking-EnferHeadSlash = Enferhunde (slash head)
 
-marking-EnferTail-enfer = Enferhunde tail (base)
-marking-EnferTail-enfer-fade = Enferhunde tail (fade)
-marking-EnferTail = Enferhunde
+marking-EnferTail-vulp = Enferhunde tail (base)
+marking-EnferTail-vulp-fade = Enferhunde tail (fade)
+marking-EnferTail = Enferhunde (faded tip)
 
-marking-EnferTailTip-enfer = Enferhunde tail (base)
-marking-EnferTailTip-enfer-tip = Enferhunde tail (tip)
-marking-EnferTailTip = Enferhunde
+marking-EnferTailTip-vulp = Enferhunde tail (base)
+marking-EnferTailTip-vulp-tip = Enferhunde tail (tip)
+marking-EnferTailTip = Enferhunde (solid tip)
 
-marking-EnferTailWag-enfer_wag = Enferhunde tail (wag)
-marking-EnferTailWag-enfer_wag-tip = Enferhunde tail (wag tip)
-marking-EnferTailWag = Enferhunde
+marking-EnferTailWag-vulp_wag = Enferhunde tail (wag)
+marking-EnferTailWag-vulp_wag-tip = Enferhunde tail (wag tip)
+marking-EnferTailWag = Enferhunde (wagging tip)
 
-marking-EnferTailWagTip-enfer_wag = Enferhunde tail (wag)
-marking-EnferTailWagTip-enfer_wag-tip = Enferhunde tail (wag tip)
-marking-EnferTailWagTip = Enferhunde
+marking-EnferTailWagTip-vulp_wag = Enferhunde tail (wag)
+marking-EnferTailWagTip-vulp_wag-tip = Enferhunde tail (wag tip)
+marking-EnferTailWagTip = Enferhunde (wagging tip)
 
-marking-EnferTailAlt-enfer_alt = Alternate tail
-marking-EnferTailAlt-enfer_alt-fade = Alternate tail (fade)
-marking-EnferTailAlt = Enferhunde (alternate)
+marking-EnferTailAlt-vulp_alt = Alternate tail
+marking-EnferTailAlt-vulp_alt-fade = Alternate tail (fade)
+marking-EnferTailAlt = Enferhunde (alternate, faded tip)
 
-marking-EnferTailAltTip-enfer_alt = Alternate tail
-marking-EnferTailAltTip-enfer_alt-tip = Alternate tail (tip)
-marking-EnferTailAltTip = Enferhunde (alternate)
+marking-EnferTailAltTip-vulp_alt = Alternate tail
+marking-EnferTailAltTip-vulp_alt-tip = Alternate tail (tip)
+marking-EnferTailAltTip = Enferhunde (alternate, solid tip)
 
 marking-EnferTailLong-long = Long tail
 marking-EnferTailLong-long-tip = Long tail (tip)
