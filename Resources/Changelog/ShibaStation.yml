@@ -1,4 +1,24 @@
 Entries:
+- author: KBraid & AstroDoge
+  changes:
+  - message: New Vulpkanin pelt marking assets added (KBraid) and implemented (AstroDoge).
+      Stylish woofers. (Will be ported to Enfers later, need to fix stuff first!)
+    type: Add
+  id: 90
+  time: '2024-08-20T17:51:32.993107'
+- author: AstroDoge
+  changes:
+  - message: Vulps and Enfers can now wag *some* of their tails, like reptilians!
+      (If a tail isn't wagging it probably isn't one with an animation set, sorry!)
+    type: Add
+  id: 89
+  time: '2024-08-20T20:16:59.020570'
+- author: AstroDoge
+  changes:
+  - message: Fixed Enfer Locale strings being broken in customisation.
+    type: Fix
+  id: 88
+  time: '2024-08-20T20:16:09.979139'
 - author: AstroDoge
   changes:
   - message: Disregard the Upstream again; zere ist only ein German accent und it
