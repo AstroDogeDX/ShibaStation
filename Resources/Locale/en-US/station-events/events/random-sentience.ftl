@@ -36,3 +36,4 @@ station-event-random-sentience-flavor-corgi = corgi
 station-event-random-sentience-flavor-primate = primate
 station-event-random-sentience-flavor-kobold = feral kobold
 station-event-random-sentience-flavor-slime = slime
+station-event-random-sentience-flavor-inanimate = inanimate

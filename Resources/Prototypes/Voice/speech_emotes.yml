@@ -653,8 +653,6 @@
   chatMessages: ["chat-emote-msg-salute"]
   chatTriggers:
     - salute
-    - salute.
-    - salute!
     - salutes
     - salutes.
     - salutes!
@@ -674,14 +672,8 @@
   chatMessages: ["chat-emote-msg-gasp"]
   chatTriggers:
    - gasp
-   - gasp.
-   - gasp!
    - gasps
-   - gasps.
-   - gasps!
    - gasped
-   - gasped.
-   - gasped!
 
 - type: emote
   id: DefaultDeathgasp
@@ -713,17 +705,9 @@
   chatMessages: ["chat-emote-msg-buzz"]
   chatTriggers:
     - buzzing
-    - buzzing!
-    - buzzing.
     - buzz
-    - buzz.
-    - buzz!
     - buzzed
-    - buzzed.
-    - buzzed!
     - buzzes
-    - buzzes.
-    - buzzes!
 
 - type: emote
   id: Weh
@@ -759,11 +743,7 @@
     - chirps.
     - chirps!
     - chirped
-    - chirped.
-    - chirped!
     - chirping
-    - chirping.
-    - chirping!
 
 # Machine Emotes
 - type: emote
@@ -781,14 +761,8 @@
     - beep.
     - beep!
     - beeps
-    - beeps.
-    - beeps!
     - beeped
-    - beeped.
-    - beeped!
     - beeping
-    - beeping.
-    - beeping!
 
 - type: emote
   id: Chime
@@ -802,17 +776,9 @@
   chatMessages: ["chat-emote-msg-chime"]
   chatTriggers:
     - chime
-    - chime.
-    - chime!
     - chimes
-    - chimes.
-    - chimes!
     - chimed
-    - chimed.
-    - chimed!
     - chiming
-    - chiming,
-    - chiming!
 
 - type: emote
   id: Buzz-Two
@@ -826,35 +792,15 @@
   chatMessages: ["chat-emote-msg-buzzestwo"]
   chatTriggers:
     - buzztwice
-    - buzztwice.
-    - buzztwice!
     - buzzstwice
-    - buzzstwice.
-    - buzzstwice!
     - buzzestwice
-    - buzzestwice.
-    - buzzestwice!
     - buzzingtwice
-    - buzzingtwice.
-    - buzzingtwice!
     - buzzedtwice
-    - buzzedtwice.
-    - buzzedtwice!
     - buzz twice
-    - buzz twice.
-    - buzz twice!
     - buzzs twice
-    - buzzs twice.
-    - buzzs twice!
     - buzzes twice
-    - buzzes twice.
-    - buzzes twice!
     - buzzing twice
-    - buzzing twice.
-    - buzzing twice!
     - buzzed twice
-    - buzzed twice.
-    - buzzed twice!
 
 - type: emote
   id: Ping
@@ -868,14 +814,8 @@
   chatMessages: ["chat-emote-msg-ping"]
   chatTriggers:
     - ping
-    - ping.
-    - ping!
     - pings
-    - pings.
-    - pings!
     - pinged
-    - pinged.
-    - pinged!
     - pinging
     - pinging.
     - pinging!
