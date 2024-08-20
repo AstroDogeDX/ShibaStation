@@ -111,6 +111,7 @@
   - type: ActiveRadio
     channels:
     - Demon
+  - type: Wagging # Waggy tails!
 
 - type: entity
   save: false

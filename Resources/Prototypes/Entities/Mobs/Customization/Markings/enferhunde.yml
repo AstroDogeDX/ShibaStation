@@ -291,28 +291,6 @@
       state: vulp-tip
 
 - type: marking
-  id: EnferTailWag
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [Enferhunde]
-  sprites:
-    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
-      state: vulp_wag
-    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
-      state: vulp_wag-tip #fade
-
-- type: marking
-  id: EnferTailWagTip
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [Enferhunde]
-  sprites:
-    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
-      state: vulp_wag
-    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
-      state: vulp_wag-tip
-
-- type: marking
   id: EnferTailAlt
   bodyPart: Tail
   markingCategory: Tail
@@ -368,28 +346,6 @@
       state: fox-tip
 
 - type: marking
-  id: EnferTailFoxWag
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [Enferhunde]
-  sprites:
-    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
-      state: fox_wag
-    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
-      state: fox_wag-fade
-
-- type: marking
-  id: EnferTailFoxWagTip
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [Enferhunde]
-  sprites:
-    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
-      state: fox_wag
-    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
-      state: fox_wag-tip
-
-- type: marking
   id: EnferTailBushy
   bodyPart: Tail
   markingCategory: Tail
@@ -399,15 +355,6 @@
       state: bushfluff
 
 - type: marking
-  id: EnferTailBushyWag
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [Enferhunde]
-  sprites:
-    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
-      state: bushfluff_wag
-
-- type: marking
   id: EnferTailCoyote
   bodyPart: Tail
   markingCategory: Tail
@@ -415,24 +362,6 @@
   sprites:
     - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: coyote
-
-- type: marking
-  id: EnferTailCoyoteWag
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [Enferhunde]
-  sprites:
-    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
-      state: coyote_wag
-
-- type: marking
-  id: EnferTailCorgiWag
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [Enferhunde]
-  sprites:
-    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
-      state: corgi_wag
 
 - type: marking
   id: EnferTailHusky
@@ -500,15 +429,6 @@
   sprites:
     - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fluffy
-
-- type: marking
-  id: EnferTailDalmatianWag
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [Enferhunde]
-  sprites:
-    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
-      state: dalmatian_wag
 
 # Body Markings (Chest)
 - type: marking
@@ -950,3 +870,74 @@
   sprites:
   - sprite: Mobs/Customization/reptilian_parts.rsi
     state: horns_demonic
+
+# Animated Tail Waggies
+
+- type: marking
+  id: EnferTailAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp_wag
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: vulp_wag-tip
+
+- type: marking
+  id: EnferTailFoxAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fox_wag
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fox_wag-fade
+
+- type: marking
+  id: EnferTailFoxTipAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fox_wag
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: fox_wag-tip
+
+- type: marking
+  id: EnferTailBushyAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: bushfluff_wag
+
+- type: marking
+  id: EnferTailCoyoteAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: coyote_wag
+
+- type: marking
+  id: EnferTailCorgiAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: corgi_wag
+
+- type: marking
+  id: EnferTailDalmatianAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
+  sprites:
+    - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
+      state: dalmatian_wag

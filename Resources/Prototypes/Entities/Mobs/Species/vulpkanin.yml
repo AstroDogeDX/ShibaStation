@@ -103,6 +103,7 @@
       Unsexed: MaleVulpkanin
   - type: DogVision
   - type: NoShoesSilentFootsteps # Soft pawpads eliminate footstep sounds.
+  - type: Wagging # Tail wagging
 
 - type: entity
   save: false
