@@ -34,7 +34,6 @@
     LFoot: MobHumanLFoot
     RFoot: MobHumanRFoot
     Tail: MobHumanoidAnyMarking
-    HeadTop: MobHumanoidAnyMarking
 
 - type: markingPoints
   id: MobHumanMarkingLimits
