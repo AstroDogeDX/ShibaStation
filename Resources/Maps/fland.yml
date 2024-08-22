@@ -30424,6 +30424,11 @@ entities:
     - type: Transform
       pos: -16.498352,-16.302273
       parent: 13329
+  - uid: 15721
+    components:
+    - type: Transform
+      pos: 35.299934,68.63487
+      parent: 13329
   - uid: 18968
     components:
     - type: Transform
@@ -30483,13 +30488,6 @@ entities:
     components:
     - type: Transform
       pos: 4.460208,71.69925
-      parent: 13329
-- proto: BoxSurvivalSyndicate
-  entities:
-  - uid: 15335
-    components:
-    - type: Transform
-      pos: 55.45186,-22.33047
       parent: 13329
 - proto: BoxSyringe
   entities:
@@ -93569,13 +93567,6 @@ entities:
     - type: Transform
       pos: 17.46724,68.57425
       parent: 13329
-- proto: ClothingBeltMilitaryWebbing
-  entities:
-  - uid: 34561
-    components:
-    - type: Transform
-      pos: 67.49193,-41.442646
-      parent: 13329
 - proto: ClothingBeltSecurityFilled
   entities:
   - uid: 10775
@@ -94300,11 +94291,6 @@ entities:
     - type: Transform
       pos: 53.29546,-42.48607
       parent: 13329
-  - uid: 34626
-    components:
-    - type: Transform
-      pos: 36.680786,68.70615
-      parent: 13329
 - proto: ClothingHeadHelmetRiot
   entities:
   - uid: 10654
@@ -94574,13 +94560,6 @@ entities:
     - type: Transform
       pos: -23.522526,76.500786
       parent: 13329
-- proto: ClothingNeckCloakHerald
-  entities:
-  - uid: 15720
-    components:
-    - type: Transform
-      pos: 62.5,-57.5
-      parent: 13329
 - proto: ClothingNeckCloakMiner
   entities:
   - uid: 33335
@@ -94768,19 +94747,19 @@ entities:
     - type: Transform
       pos: -9.515972,-16.273252
       parent: 13329
-- proto: ClothingOuterCoatDetectiveLoadout
-  entities:
-  - uid: 31694
-    components:
-    - type: Transform
-      pos: -28.586462,68.64356
-      parent: 13329
 - proto: ClothingOuterCoatLab
   entities:
   - uid: 19754
     components:
     - type: Transform
       pos: 32.341858,-50.533268
+      parent: 13329
+- proto: ClothingOuterCoatTrench
+  entities:
+  - uid: 15720
+    components:
+    - type: Transform
+      pos: -29.56662,69.60553
       parent: 13329
 - proto: ClothingOuterGhostSheet
   entities:
@@ -94801,11 +94780,6 @@ entities:
     components:
     - type: Transform
       pos: 53.592335,-42.45482
-      parent: 13329
-  - uid: 34205
-    components:
-    - type: Transform
-      pos: 36.407623,68.61223
       parent: 13329
 - proto: ClothingOuterHardsuitSecurity
   entities:
@@ -94948,13 +94922,6 @@ entities:
     components:
     - type: Transform
       pos: 70.55321,-5.514928
-      parent: 13329
-- proto: ClothingShoesBootsMagSyndie
-  entities:
-  - uid: 34793
-    components:
-    - type: Transform
-      pos: 67.44477,-42.60581
       parent: 13329
 - proto: ClothingShoesBootsSalvage
   entities:
@@ -163657,6 +163624,11 @@ entities:
     - type: Transform
       pos: 19.5,-22.5
       parent: 13329
+  - uid: 20554
+    components:
+    - type: Transform
+      pos: 36.5,68.5
+      parent: 13329
   - uid: 29283
     components:
     - type: Transform
@@ -163786,6 +163758,11 @@ entities:
       parent: 13329
 - proto: MaintenanceToolSpawner
   entities:
+  - uid: 15335
+    components:
+    - type: Transform
+      pos: 62.5,-57.5
+      parent: 13329
   - uid: 31817
     components:
     - type: Transform
@@ -163848,6 +163825,16 @@ entities:
       parent: 13329
 - proto: MaintenanceWeaponSpawner
   entities:
+  - uid: 20553
+    components:
+    - type: Transform
+      pos: 67.5,-41.5
+      parent: 13329
+  - uid: 20555
+    components:
+    - type: Transform
+      pos: 79.5,10.5
+      parent: 13329
   - uid: 21278
     components:
     - type: Transform
@@ -163905,18 +163892,6 @@ entities:
     components:
     - type: Transform
       pos: 46.429523,54.487045
-      parent: 13329
-- proto: MaterialReclaimer
-  entities:
-  - uid: 6766
-    components:
-    - type: Transform
-      pos: 125.5,-1.5
-      parent: 13329
-  - uid: 13314
-    components:
-    - type: Transform
-      pos: 15.5,-27.5
       parent: 13329
 - proto: MaterialWoodPlank
   entities:
@@ -164274,13 +164249,6 @@ entities:
     components:
     - type: Transform
       pos: 82.5,54.5
-      parent: 13329
-- proto: MirrorShield
-  entities:
-  - uid: 15721
-    components:
-    - type: Transform
-      pos: 62.5,-57.5
       parent: 13329
 - proto: MonkeyCubeWrapped
   entities:
@@ -173050,6 +173018,11 @@ entities:
       rot: 3.141592653589793 rad
       pos: -36.5,-44.5
       parent: 13329
+  - uid: 13314
+    components:
+    - type: Transform
+      pos: 36.5,68.5
+      parent: 13329
   - uid: 13699
     components:
     - type: Transform
@@ -173509,11 +173482,6 @@ entities:
     components:
     - type: Transform
       pos: 34.5,66.5
-      parent: 13329
-  - uid: 34203
-    components:
-    - type: Transform
-      pos: 36.5,68.5
       parent: 13329
   - uid: 34208
     components:
@@ -180580,8 +180548,14 @@ entities:
     - type: MetaData
       name: Mailroom Garage Door Opener
     - type: Transform
-      pos: 21.53215,-13.842299
+      pos: 21.52355,-14.18487
       parent: 13329
+    - type: DeviceLinkSource
+      linkedPorts:
+        9596:
+        - Pressed: Toggle
+        9595:
+        - Pressed: Toggle
   - uid: 31585
     components:
     - type: Transform
@@ -180655,13 +180629,6 @@ entities:
     components:
     - type: Transform
       pos: 21.482563,-11.35629
-      parent: 13329
-- proto: SalvageLootSpawner
-  entities:
-  - uid: 29379
-    components:
-    - type: Transform
-      pos: 79.5,10.5
       parent: 13329
 - proto: SalvageMagnet
   entities:
@@ -195951,6 +195918,11 @@ entities:
     components:
     - type: Transform
       pos: 8.5,5.5
+      parent: 13329
+  - uid: 6766
+    components:
+    - type: Transform
+      pos: 67.5,-42.5
       parent: 13329
   - uid: 29363
     components:
