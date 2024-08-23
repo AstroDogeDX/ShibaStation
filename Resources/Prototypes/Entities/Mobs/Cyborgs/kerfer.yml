@@ -4,7 +4,16 @@
   id: BorgChassisKerfer
   parent: BaseBorgChassisNT
   name: kerfer
+  description: A cat-shaped-robot-buddy designed to help haul cargo around the station. No brain required. Meow!
   components:
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: ghost-role-information-kerfer-name
+    description: ghost-role-information-kerfer-description
+    rules: ghost-role-information-silicon-rules
+  - type: GhostTakeoverAvailable
   - type: Sprite
     layers:
     - state: kerfer
@@ -25,20 +34,27 @@
       sprite: Mobs/Silicon/chassis.rsi
       state: kerfer
     name: kerfer
+  - type: Construction
+    node: service
   - type: IntrinsicRadioTransmitter
     channels:
-    - Cargo
+    - Supply
     - Binary
     - Common
     - Science
   - type: ActiveRadio
     channels:
-    - Cargo
+    - Supply
     - Binary
     - Common
     - Science
   - type: AccessReader
-    access: [["Command"], ["Research"], ["Cargo"]] # Kerfer can unlock themselves to allow access to their inventories, and should do so as per laws. Cargo gets direct access as Kerfer is a Cargo Borg.
+    access: [["Cargo"], ["Command"], ["Research"]]
+  - type: ContainerContainer
+    containers: # No brain slot, kerfers share a single braincell
+      cell_slot: !type:ContainerSlot { }
+      borg_module: !type:Container { }
+      part-container: !type:Container
   - type: Inventory
     templateId: borgTall
   - type: InteractionPopup
@@ -49,10 +65,10 @@
   - type: MovementSpeedModifier
     baseWalkSpeed : 2.5
     baseSprintSpeed : 5.5
-  - type: FelinidAccent # meow!
-  - type: Storage # Kerfers have an inventory as they are primarily cargo borgs.
+  - type: FelinidAccent
+  - type: Storage
     grid:
-    - 0,0,7,5
+    - 0,0,5,3
   - type: Tag
     tags:
     - DoorBumpOpener

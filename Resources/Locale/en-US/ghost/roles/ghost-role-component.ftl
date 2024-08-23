@@ -102,6 +102,9 @@ ghost-role-information-mimebot-description = A Mimebot, act like a mime but don'
 ghost-role-information-supplybot-name = SupplyBot
 ghost-role-information-supplybot-description = Deliver goods around the station.
 
+ghost-role-information-kerfer-name = Kerfer
+ghost-role-information-kerfer-description = Help Cargo deliver goods. Guide crew to the bar. Get emagged immediately. Meow!
+
 ghost-role-information-space-bear-name = Space bear
 ghost-role-information-space-bear-description = Your tummy rumbles, and these people look really yummy... What a feast!
 
