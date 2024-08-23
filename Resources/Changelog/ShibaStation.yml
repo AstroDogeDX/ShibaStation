@@ -1,4 +1,19 @@
 Entries:
+- author: AstroDoge
+  changes:
+  - message: Small races (Felinids, Prime Kobolds and Dwarves) can be picked up with
+      two free hands and carried, even stuffed into bags if they have enough space!
+      Yoink!
+    type: Tweak
+  id: 92
+  time: '2024-08-23T17:15:37.865832'
+- author: Ellie (KBraid) & AstroDoge
+  changes:
+  - message: Added Kerfer bots! Mobile containers designed to transport goods around
+      the station, they don't require a brain but batteries not included!
+    type: Add
+  id: 91
+  time: '2024-08-23T17:17:03.419542'
 - author: KBraid & AstroDoge
   changes:
   - message: New Vulpkanin pelt marking assets added (KBraid) and implemented (AstroDoge).
