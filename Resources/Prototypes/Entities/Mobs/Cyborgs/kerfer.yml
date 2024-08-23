@@ -25,22 +25,20 @@
       sprite: Mobs/Silicon/chassis.rsi
       state: kerfer
     name: kerfer
-  - type: Construction
-    node: service
   - type: IntrinsicRadioTransmitter
     channels:
-    - Service
+    - Cargo
     - Binary
     - Common
     - Science
   - type: ActiveRadio
     channels:
-    - Service
+    - Cargo
     - Binary
     - Common
     - Science
   - type: AccessReader
-    access: [["Service"], ["Command"], ["Research"]]
+    access: [["Command"], ["Research"], ["Cargo"]] # Kerfer can unlock themselves to allow access to their inventories, and should do so as per laws. Cargo gets direct access as Kerfer is a Cargo Borg.
   - type: Inventory
     templateId: borgTall
   - type: InteractionPopup
@@ -51,10 +49,10 @@
   - type: MovementSpeedModifier
     baseWalkSpeed : 2.5
     baseSprintSpeed : 5.5
-  - type: FelinidAccent
-  - type: Storage
+  - type: FelinidAccent # meow!
+  - type: Storage # Kerfers have an inventory as they are primarily cargo borgs.
     grid:
-    - 0,0,5,3
+    - 0,0,7,5
   - type: Tag
     tags:
     - DoorBumpOpener
