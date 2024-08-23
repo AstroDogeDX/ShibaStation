@@ -207,3 +207,13 @@
   cost: 10000
   category: cargoproduct-category-name-fun
   group: market
+
+- type: cargoProduct
+  id: FunKerferBorg
+  icon:
+    sprite: Mobs/Silicon/chassis.rsi
+    state: kerfer
+  product: BorgChassisKerfer
+  cost: 2000
+  category: cargoproduct-category-name-fun
+  group: market
