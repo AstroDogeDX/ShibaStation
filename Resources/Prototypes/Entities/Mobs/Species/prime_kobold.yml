@@ -88,6 +88,9 @@
         - MobMask
         layer:
         - MobLayer
+  - type: Item
+    size: Huge
+  - type: CanEscapeInventory
 
 
 - type: entity

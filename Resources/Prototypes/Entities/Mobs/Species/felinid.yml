@@ -59,8 +59,10 @@
       Female: FemaleFelinid
       Unsexed: MaleFelinid
   - type: Felinid
-  - type: NoShoesSilentFootsteps
   - type: FelinidAccent
+  - type: Item
+    size: Huge
+  - type: CanEscapeInventory
 
 - type: entity
   save: false
