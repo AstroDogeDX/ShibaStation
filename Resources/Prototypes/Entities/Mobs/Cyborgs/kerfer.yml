@@ -22,11 +22,12 @@
       shader: unshaded
       visible: false
   - type: BorgChassis
-    maxModules: 4
+    maxModules: 3
     moduleWhitelist:
       tags:
-      - BorgModuleGeneric
-      - BorgModuleService
+      - BorgModuleGeneric # Might remove this, kerfers should probably be pretty helpless and rely on crew, as they're not 'true borgs'.
+      - BorgModuleSyndicate # But can still be given syndie upgrades for the funny emag evil kerfer moments.
+      - BorgModuleSyndicateAssault
     hasMindState: kerfer_e
     noMindState: kerfer_e_sad
   - type: BorgTransponder
@@ -50,13 +51,6 @@
     - Science
   - type: AccessReader
     access: [["Cargo"], ["Command"], ["Research"]]
-  - type: BorgChassis
-    maxModules: 3
-    moduleWhitelist:
-      tags:
-      - BorgModuleGeneric # Might remove this, kerfers should probably be pretty helpless and rely on crew, as they're not 'true borgs'.
-      - BorgModuleSyndicate # But can still be given syndie upgrades for the funny emag evil kerfer moments.
-      - BorgModuleSyndicateAssault
   - type: ContainerContainer
     containers: # No brain slot, kerfers share a single braincell
       cell_slot: !type:ContainerSlot { }
