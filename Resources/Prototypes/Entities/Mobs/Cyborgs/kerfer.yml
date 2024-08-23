@@ -50,6 +50,13 @@
     - Science
   - type: AccessReader
     access: [["Cargo"], ["Command"], ["Research"]]
+  - type: BorgChassis
+    maxModules: 3
+    moduleWhitelist:
+      tags:
+      - BorgModuleGeneric # Might remove this, kerfers should probably be pretty helpless and rely on crew, as they're not 'true borgs'.
+      - BorgModuleSyndicate # But can still be given syndie upgrades for the funny emag evil kerfer moments.
+      - BorgModuleSyndicateAssault
   - type: ContainerContainer
     containers: # No brain slot, kerfers share a single braincell
       cell_slot: !type:ContainerSlot { }
