@@ -1,0 +1,72 @@
+# omg kerfur hi
+
+- type: entity
+  id: BorgChassisKerfer
+  parent: BaseBorgChassisNT
+  name: kerfer
+  components:
+  - type: Sprite
+    layers:
+    - state: kerfer
+    - state: kerfer_e
+      map: ["enum.BorgVisualLayers.Light"]
+      shader: unshaded
+      visible: false
+  - type: BorgChassis
+    maxModules: 4
+    moduleWhitelist:
+      tags:
+      - BorgModuleGeneric
+      - BorgModuleService
+    hasMindState: kerfer_e
+    noMindState: kerfer_e_sad
+  - type: BorgTransponder
+    sprite:
+      sprite: Mobs/Silicon/chassis.rsi
+      state: kerfer
+    name: kerfer
+  - type: Construction
+    node: service
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Service
+    - Binary
+    - Common
+    - Science
+  - type: ActiveRadio
+    channels:
+    - Service
+    - Binary
+    - Common
+    - Science
+  - type: AccessReader
+    access: [["Service"], ["Command"], ["Research"]]
+  - type: Inventory
+    templateId: borgTall
+  - type: InteractionPopup
+    interactSuccessString: petting-success-kerfer-cyborg
+    interactFailureString: petting-failure-kerfer-cyborg
+    interactSuccessSound:
+      path: /Audio/Ambience/Objects/kerfer_meow.ogg
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 2.5
+    baseSprintSpeed : 5.5
+  - type: FelinidAccent
+  - type: Storage
+    grid:
+    - 0,0,5,3
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - FootstepSound
+    - CanPilot
+    - Kerfer
+  - type: LockingWhitelist
+    whitelist:
+      tags:
+      - Kerfer # This is a bit of a hack, but it means only Kerfers can unlock themselves and other Kerfers.
+    blacklist:
+      components:
+      - RoboticsConsole
+      tags:
+      - Cyborg

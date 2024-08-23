@@ -308,12 +308,40 @@
           "directions": 4
     },
 	{
-      "name": "synd_engi_e",
-      "directions": 4
+        "name": "synd_engi_e",
+        "directions": 4
     },
     {
-      "name": "synd_engi_l",
-      "directions": 4
+        "name": "synd_engi_l",
+        "directions": 4
+    },
+    {
+        "name": "kerfer",
+        "directions": 4
+    },
+    {
+        "name": "kerfer_e",
+        "directions": 4
+    },
+    {
+        "name": "kerfer_e_angry",
+        "directions": 4
+    },
+    {
+        "name": "kerfer_e_emag",
+        "directions": 4
+    },
+    {
+        "name": "kerfer_e_exite",
+        "directions": 4
+    },
+    {
+        "name": "kerfer_e_happy",
+        "directions": 4
+    },
+    {
+        "name": "kerfer_e_sad",
+        "directions": 4
     }
 
   ]
