@@ -68,7 +68,7 @@
   - type: FelinidAccent
   - type: Storage
     grid:
-    - 0,0,6,4
+    - 0,0,4,6
   - type: Tag
     tags:
     - DoorBumpOpener
