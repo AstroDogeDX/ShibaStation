@@ -65,7 +65,8 @@
             state: jumpsuit-female
   - type: Item
     size: Huge
-  - type: CanEscapeInventory
+  - type: MultiHandedItem # Need two free hands to scoop 'em up.
+  - type: CanEscapeInventory # Struggle to get free, can't instantly pop out of bags.
 
 - type: entity
   parent: BaseSpeciesDummy
