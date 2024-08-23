@@ -69,6 +69,8 @@
         type: BorgBoundUserInterface
       enum.StrippingUiKey.Key:
         type: StrippableBoundUserInterface
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
   - type: ActivatableUI
     key: enum.BorgUiKey.Key
   - type: SiliconLawBound
@@ -99,11 +101,13 @@
     doAfterDelay: 10
     allowSelfRepair: false
   - type: BorgChassis
-  - type: LockingWhitelist
+  - type: LockingWhitelist # Changed 'borg check' from component to tag to allow for Kerfer checks
     blacklist:
       components:
-      - BorgChassis
       - RoboticsConsole
+      tags:
+      - Cyborg
+      - Kerfer
   - type: WiresPanel
   - type: ActivatableUIRequiresPanel
   - type: NameIdentifier
@@ -224,6 +228,7 @@
     - DoorBumpOpener
     - FootstepSound
     - CanPilot
+    - Cyborg
   - type: Emoting
   - type: GuideHelp
     guides:

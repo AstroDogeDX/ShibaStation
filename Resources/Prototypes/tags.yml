@@ -1377,3 +1377,11 @@
 
 - type: Tag
   id: HidesHarpyWings
+
+# Tags needed to allow Kerfers to unlock themselves and make their storage available, but not other Cyborgs.
+
+- type: Tag
+  id: Cyborg
+
+- type: Tag
+  id: Kerfer
