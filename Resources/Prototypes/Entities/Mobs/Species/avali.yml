@@ -1,0 +1,51 @@
+- type: entity
+  save: false
+  name: Urist McAvali
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobAvali
+  abstract: true
+  components:
+  - type: HumanoidAppearance
+    species: Avali
+  - type: Hunger
+  - type: Thirst
+  - type: Icon
+    sprite: Mobs/Species/Avali/parts.rsi
+    state: full
+  - type: Body
+    prototype: Avali
+    requiredLegs: 2
+  - type: Speech
+    speechSounds: Avali
+    speechVerb: Avali
+  - type: MeleeWeapon
+    hidden: true
+    soundHit:
+      path: /Audio/Weapons/pierce.ogg
+    angle: 30
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Blunt: 2
+        Slash: 3
+  - type: Perishable
+  - type: Damageable
+    damageModifierSet: Avali
+  - type: TemperatureProtection
+    coefficient: 0.1
+  - type: Vocal
+    sounds:
+      Male: MaleAvali
+      Female: FemaleAvali
+      Unsexed: MaleAvali
+
+- type: entity
+  save: false
+  name: Avali Dummy
+  parent: MobHumanDummy
+  id: MobAvaliDummy
+  noSpawn: true
+  description: A dummy avali meant to be used in character setup.
+  components:
+  - type: HumanoidAppearance
+    species: Avali

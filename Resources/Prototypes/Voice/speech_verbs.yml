@@ -1,4 +1,4 @@
-﻿- type: speechVerb
+- type: speechVerb
   id: Default
   name: chat-speech-verb-name-default
   speechVerbStrings:
@@ -191,3 +191,12 @@
   - chat-speech-verb-harpy-2
   - chat-speech-verb-harpy-3
   - chat-speech-verb-harpy-4
+
+- type: speechVerb
+  id: Avali
+  name: chat-speech-verb-name-avali
+  speechVerbStrings:
+  - chat-speech-verb-avali-1
+  - chat-speech-verb-avali-2
+  - chat-speech-verb-avali-3
+  - chat-speech-verb-avali-4

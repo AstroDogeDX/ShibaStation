@@ -1,0 +1,52 @@
+# Eyes
+
+# - type: marking
+#   id: AvaliEyesDefault
+#   bodyPart: Eyes
+#   markingCategory: Head
+#   speciesRestriction: [Avali]
+#   sprites:
+#     - sprite: Mobs/Customization/Avali/avali_eyes.rsi
+#       state: avali_eyes_natural
+
+- type: marking
+  id: AvaliEyesAugmented
+  bodyPart: Eyes
+  markingCategory: Head
+  speciesRestriction: [Avali]
+  sprites:
+    - sprite: Mobs/Customization/Avali/avali_eyes.rsi
+      state: avali_eyes_augmented
+
+# Tail
+
+- type: marking
+  id: AvaliTailDefault
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Avali]
+  sprites:
+    - sprite: Mobs/Customization/Avali/avali_tails.rsi
+      state: avali_tail_default
+
+# Ears
+
+- type: marking
+  id: AvaliEarsDefault
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Avali]
+  sprites:
+    - sprite: Mobs/Customization/Avali/avali_ears.rsi
+      state: avali_ears_default
+
+# Wings
+
+- type: marking
+  id: AvaliWingsDefault
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Avali]
+  sprites:
+    - sprite: Mobs/Customization/Avali/avali_wings.rsi
+      state: avali_wings_default

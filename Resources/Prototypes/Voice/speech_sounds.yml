@@ -186,3 +186,12 @@
     path: /Audio/Voice/Moth/moth_chitter.ogg
   exclaimSound:
     path: /Audio/Voice/Moth/moth_chitter.ogg
+
+- type: speechSounds
+  id: Avali
+  saySound:
+    path: /Audio/Voice/Talk/avali.ogg
+  askSound:
+    path: /Audio/Voice/Talk/avali_ask.ogg
+  exclaimSound:
+    path: /Audio/Voice/Talk/avali_exclaim.ogg  
