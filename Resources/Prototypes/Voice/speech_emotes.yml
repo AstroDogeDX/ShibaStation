@@ -15,51 +15,19 @@
     - scream
     - screams
     - screamed
-    - scream.
-    - screams.
-    - screamed.
-    - scream!
-    - screams!
-    - screamed!
     - screaming
-    - screaming.
-    - screaming!
     - shriek
     - shrieks
     - shrieked
-    - shriek.
-    - shrieks.
-    - shrieked.
-    - shriek!
-    - shrieks!
-    - shrieked!
     - shrieking
-    - shrieking.
-    - shrieking!
     - screech
     - screeches
     - screeched
-    - screech.
-    - screeches.
-    - screeched.
-    - screech!
-    - screeches!
-    - screeched!
     - screeching
-    - screeching.
-    - screeching!
     - yell
     - yells
     - yelled
-    - yell.
-    - yells.
-    - yelled.
-    - yell!
-    - yells!
-    - yelled!
     - yelling
-    - yelling.
-    - yelling!
 
 - type: emote
   id: ScreamLikeCat
@@ -72,17 +40,9 @@
   chatMessages: ["chat-emote-msg-screamlikecat"]
   chatTriggers:
     - scream like a cat
-    - scream like a cat.
-    - scream like a cat!
     - screams like a cat
-    - screams like a cat.
-    - screams like a cat!
     - screamed like a cat
-    - screamed like a cat.
-    - screamed like a cat!
     - screaming like a cat
-    - screaming like a cat.
-    - screaming like a cat!
 
 - type: emote
   id: ScreamLikeMonkey
@@ -95,17 +55,9 @@
   chatMessages: ["chat-emote-msg-screamlikemonkey"]
   chatTriggers:
     - scream like a monkey
-    - scream like a monkey.
-    - scream like a monkey!
     - screams like a monkey
-    - screams like a monkey.
-    - screams like a monkey!
     - screamed like a monkey
-    - screamed like a monkey.
-    - screamed like a monkey!
     - screaming like a monkey
-    - screaming like a monkey.
-    - screaming like a monkey!
 
 - type: emote
   id: ScreamLikeMoth
@@ -118,17 +70,9 @@
   chatMessages: ["chat-emote-msg-screamlikemoth"]
   chatTriggers:
     - scream like a moth
-    - scream like a moth.
-    - scream like a moth!
     - screams like a moth
-    - screams like a moth.
-    - screams like a moth!
     - screamed like a moth
-    - screamed like a moth.
-    - screamed like a moth!
     - screaming like a moth
-    - screaming like a moth.
-    - screaming like a moth!
 
 - type: emote
   id: ScreamLikeSkeleton
@@ -141,17 +85,9 @@
   chatMessages: ["chat-emote-msg-screamlikeskeleton"]
   chatTriggers:
     - scream like a skeleton
-    - scream like a skeleton.
-    - scream like a skeleton!
     - screams like a skeleton
-    - screams like a skeleton.
-    - screams like a skeleton!
     - screamed like a skeleton
-    - screamed like a skeleton.
-    - screamed like a skeleton!
     - screaming like a skeleton
-    - screaming like a skeleton.
-    - screaming like a skeleton!
 
 - type: emote
   id: ScreamLikeLizard
@@ -164,17 +100,9 @@
   chatMessages: ["chat-emote-msg-screamlikelizard"]
   chatTriggers:
     - scream like a lizard
-    - scream like a lizard.
-    - scream like a lizard!
     - screams like a lizard
-    - screams like a lizard.
-    - screams like a lizard!
     - screamed like a lizard
-    - screamed like a lizard.
-    - screamed like a lizard!
     - screaming like a lizard
-    - screaming like a lizard.
-    - screaming like a lizard!
 
 - type: emote
   id: ScreamLikeWilhelm
@@ -187,17 +115,9 @@
   chatMessages: ["chat-emote-msg-screamlikewilhelm"]
   chatTriggers:
     - scream like Wilhelm
-    - scream like Wilhelm.
-    - scream like Wilhelm!
     - screams like Wilhelm
-    - screams like Wilhelm.
-    - screams like Wilhelm!
     - screamed like Wilhelm
-    - screamed like Wilhelm.
-    - screamed like Wilhelm!
     - screaming like Wilhelm
-    - screaming like Wilhelm.
-    - screaming like Wilhelm!
 
 - type: emote
   id: ScreamLikeVox
@@ -210,17 +130,9 @@
   chatMessages: ["chat-emote-msg-screamlikevox"]
   chatTriggers:
     - scream like a vox
-    - scream like a vox.
-    - scream like a vox!
     - screams like a vox
-    - screams like a vox.
-    - screams like a vox!
     - screamed like a vox
-    - screamed like a vox.
-    - screamed like a vox!
     - screaming like a vox
-    - screaming like a vox.
-    - screaming like a vox!
 
 - type: emote
   id: Laugh
@@ -237,31 +149,19 @@
   chatTriggers:
     - laugh
     - laughs
-    - laughs.
-    - laughs!
     - laughing
     - laughed
     - chuckle
     - chuckles
-    - chuckles.
-    - chuckles!
     - chuckled
     - chuckling
     - giggle
     - giggles
-    - giggles.
-    - giggles!
     - giggling
     - giggled
     - chortle
-    - chortle.
-    - chortle!
     - chortles
-    - chortles.
-    - chortles!
     - chortling
-    - chortling.
-    - chortling!
 
 - type: emote
   id: LaughLikeDiona
@@ -274,17 +174,9 @@
   chatMessages: ["chat-emote-msg-laughlikediona"]
   chatTriggers:
     - laugh like a diona
-    - laugh like a diona.
-    - laugh like a diona!
     - laughs like a diona
-    - laughs like a diona.
-    - laughs like a diona!
     - laughed like a diona
-    - laughed like a diona.
-    - laughed like a diona!
     - laughing like a diona
-    - laughing like a diona.
-    - laughing like a diona!
 
 - type: emote
   id: LaughLikeFerret
@@ -297,17 +189,9 @@
   chatMessages: ["chat-emote-msg-laughlikeferret"]
   chatTriggers:
     - laugh like a ferret
-    - laugh like a ferret.
-    - laugh like a ferret!
     - laughs like a ferret
-    - laughs like a ferret.
-    - laughs like a ferret!
     - laughed like a ferret
-    - laughed like a ferret.
-    - laughed like a ferret!
     - laughing like a ferret
-    - laughing like a ferret.
-    - laughing like a ferret!
 
 - type: emote
   id: LaughLikeMoth
@@ -320,17 +204,9 @@
   chatMessages: ["chat-emote-msg-laughlikemoth"]
   chatTriggers:
     - laugh like a moth
-    - laugh like a moth.
-    - laugh like a moth!
     - laughs like a moth
-    - laughs like a moth.
-    - laughs like a moth!
     - laughed like a moth
-    - laughed like a moth.
-    - laughed like a moth!
     - laughing like a moth
-    - laughing like a moth.
-    - laughing like a moth!
 
 - type: emote
   id: LaughLikeLizard
@@ -343,17 +219,9 @@
   chatMessages: ["chat-emote-msg-laughlikelizard"]
   chatTriggers:
     - laugh like a lizard
-    - laugh like a lizard.
-    - laugh like a lizard!
     - laughs like a lizard
-    - laughs like a lizard.
-    - laughs like a lizard!
     - laughed like a lizard
-    - laughed like a lizard.
-    - laughed like a lizard!
     - laughing like a lizard
-    - laughing like a lizard.
-    - laughing like a lizard!
 
 - type: emote
   id: LaughLikeVox
@@ -366,17 +234,9 @@
   chatMessages: ["chat-emote-msg-laughlikevox"]
   chatTriggers:
     - laugh like a vox
-    - laugh like a vox.
-    - laugh like a vox!
     - laughs like a vox
-    - laughs like a vox.
-    - laughs like a vox!
     - laughed like a vox
-    - laughed like a vox.
-    - laughed like a vox!
     - laughing like a vox
-    - laughing like a vox.
-    - laughing like a vox!
 
 - type: emote
   id: Honk
@@ -390,17 +250,9 @@
   chatMessages: ["chat-emote-msg-honk"]
   chatTriggers:
     - honk
-    - honk.
-    - honk!
     - honks
-    - honks.
-    - honks!
     - honked
-    - honked.
-    - honked!
     - honking
-    - honking.
-    - honking!
 
 - type: emote
   id: Sigh
@@ -418,12 +270,6 @@
     - sigh
     - sighs
     - sighed
-    - sigh.
-    - sighs.
-    - sighed.
-    - sigh!
-    - sighs!
-    - sighed!
 
 - type: emote
   id: Whistle
@@ -439,14 +285,8 @@
   chatMessages: ["chat-emote-msg-whistle"]
   chatTriggers:
     - whistle
-    - whistle.
-    - whistle!
     - whistles
-    - whistles.
-    - whistles!
     - whistleblowing
-    - whistleblowing.
-    - whistleblowing!
 
 - type: emote
   id: Crying
@@ -462,22 +302,11 @@
   chatMessages: ["chat-emote-msg-crying"]
   chatTriggers:
     - cry
-    - cry.
-    - cry!
     - crying
-    - crying.
-    - crying!
     - cries
-    - cries.
-    - cries!
     - sob
-    - sob.
     - sobs
-    - sobs.
-    - sobs!
     - sobbing
-    - sobbing.
-    - sobbing!
 
 - type: emote
   id: Squish
@@ -493,14 +322,8 @@
   chatMessages: ["chat-emote-msg-squish"]
   chatTriggers:
     - squish
-    - squish.
-    - squish!
     - squishing
-    - squishing.
-    - squishing!
     - squishes
-    - squishes.
-    - squishes!
 
 - type: emote
   id: Chitter
@@ -516,14 +339,8 @@
   chatMessages: ["chat-emote-msg-chitter"]
   chatTriggers:
    - chitter
-   - chitter.
-   - chitter!
    - chitters
-   - chitters.
-   - chitters!
    - chittered
-   - chittered.
-   - chittered!
 
 - type: emote
   id: Squeak
@@ -539,14 +356,8 @@
   chatMessages: ["chat-emote-msg-squeak"]
   chatTriggers:
    - squeak
-   - squeak.
-   - squeak!
    - squeaks
-   - squeaks.
-   - squeaks!
    - squeaked
-   - squeaked.
-   - squeaked!
 
 - type: emote
   id: Click
@@ -562,14 +373,8 @@
   chatMessages: ["chat-emote-msg-click"]
   chatTriggers:
    - click
-   - click.
-   - click!
    - clicks
-   - clicks.
-   - clicks!
    - clicked
-   - clicked.
-   - clicked!
 
 # hand emotes
 - type: emote
@@ -586,17 +391,9 @@
   chatMessages: ["chat-emote-msg-clap"]
   chatTriggers:
     - clap
-    - clap.
-    - clap!
     - claps
-    - claps.
-    - claps!
     - clapping
-    - clapping.
-    - clapping!
     - clapped
-    - clapped.
-    - clapped!
 
 - type: emote
   id: Snap
@@ -612,32 +409,14 @@
   chatMessages: ["chat-emote-msg-snap"] # snaps <{THEIR($ent)}> fingers?
   chatTriggers:
     - snap
-    - snap.
-    - snap!
     - snaps
-    - snaps.
-    - snaps!
     - snapping
-    - snapping.
-    - snapping!
     - snapped
-    - snapped.
-    - snapped!
     - snap fingers
-    - snap fingers.
-    - snap fingers!
     - snaps fingers
-    - snaps fingers.
-    - snaps fingers!
     - snaps their fingers
-    - snaps their fingers.
-    - snaps their fingers!
     - snapping fingers
-    - snapping fingers.
-    - snapping fingers!
     - snapped fingers
-    - snapped fingers.
-    - snapped fingers!
 
 - type: emote
   id: Salute
@@ -654,14 +433,8 @@
   chatTriggers:
     - salute
     - salutes
-    - salutes.
-    - salutes!
     - saluted
-    - saluted.
-    - saluted!
     - saluting
-    - saluting.
-    - saluting!
 
 - type: emote
   id: Gasp
@@ -717,17 +490,9 @@
   chatMessages: [Wehs!]
   chatTriggers:
     - weh
-    - weh.
-    - weh!
     - wehs
-    - wehs.
-    - wehs!
     - wehed
-    - wehed.
-    - wehed!
     - wehing
-    - wehing.
-    - wehing!
 
 - type: emote
   id: Chirp
@@ -737,11 +502,7 @@
   chatMessages: ["chat-emote-msg-chirp"]
   chatTriggers:
     - chirp
-    - chirp.
-    - chirp!
     - chirps
-    - chirps.
-    - chirps!
     - chirped
     - chirping
 
@@ -758,8 +519,6 @@
   chatMessages: ["chat-emote-msg-beep"]
   chatTriggers:
     - beep
-    - beep.
-    - beep!
     - beeps
     - beeped
     - beeping
@@ -817,8 +576,6 @@
     - pings
     - pinged
     - pinging
-    - pinging.
-    - pinging!
 
 # Harpy
 
@@ -829,17 +586,9 @@
   chatMessages: [rings.]
   chatTriggers:
     - ring
-    - ring.
-    - ring!
     - rings
-    - rings.
-    - rings!
     - ringing
-    - ringing.
-    - ringing!
     - ringed
-    - ringed.
-    - ringed!
 
 - type: emote
   id: Pew
@@ -848,17 +597,9 @@
   chatMessages: [pews.]
   chatTriggers:
     - pew
-    - pew.
-    - pew!
     - pews
-    - pews.
-    - pews!
     - pewing
-    - pewing.
-    - pewing!
     - pewed
-    - pewed.
-    - pewed!
 
 - type: emote
   id: Bang
@@ -867,17 +608,9 @@
   chatMessages: [bangs.]
   chatTriggers:
     - bang
-    - bang.
-    - bang!
     - bangs
-    - bangs.
-    - bangs!
     - banging
-    - banging.
-    - banging!
     - banged
-    - banged.
-    - banged!
 
 - type: emote
   id: Rev
@@ -886,17 +619,9 @@
   chatMessages: [revs.]
   chatTriggers:
     - rev
-    - rev.
-    - rev!
     - revs
-    - revs.
-    - revs!
     - revving
-    - revving.
-    - revving!
     - revved
-    - revved.
-    - revved!
 
 - type: emote
   id: Caw
@@ -904,18 +629,10 @@
   category: Vocal
   chatMessages: [caws.]
   chatTriggers:
-    - caws
-    - caws.
-    - caws!
     - caw
-    - caw.
-    - caw!
+    - caws
     - cawing
-    - cawing.
-    - cawing!
     - cawed
-    - cawed.
-    - cawed!
 
 #Vulpkanin
 - type: emote
@@ -925,17 +642,9 @@
   chatMessages: [barks.]
   chatTriggers:
     - bark
-    - bark.
-    - bark!
     - barks
-    - barks.
-    - barks!
-    - barked
-    - barked.
-    - barked!
     - barking
-    - barking.
-    - barking!
+    - barked
 
 - type: emote
   id: Snarl
@@ -944,17 +653,9 @@
   chatMessages: [snarls.]
   chatTriggers:
     - snarl
-    - snarl.
-    - snarl!
     - snarls
-    - snarls.
-    - snarls!
-    - snarled
-    - snarled.
-    - snarled!
     - snarling
-    - snarling.
-    - snarling!
+    - snarled
 
 - type: emote
   id: Whine
@@ -963,17 +664,9 @@
   chatMessages: [whines.]
   chatTriggers:
     - whine
-    - whine.
-    - whine!
     - whines
-    - whines.
-    - whines!
-    - whined
-    - whined.
-    - whined!
     - whining
-    - whining.
-    - whining!
+    - whined
 
 - type: emote
   id: Howl
@@ -982,17 +675,9 @@
   chatMessages: [howls.]
   chatTriggers:
     - howl
-    - howl.
-    - howl!
     - howls
-    - howls.
-    - howls!
-    - howled
-    - howled.
-    - howled!
     - howling
-    - howling.
-    - howling!
+    - howled
 
 # Felinids
 
@@ -1004,17 +689,9 @@
   chatMessages: [hisses.]
   chatTriggers:
     - hiss
-    - hiss.
-    - hiss!
     - hisses
-    - hisses.
-    - hisses!
-    - hissed
-    - hissed.
-    - hissed!
     - hissing
-    - hissing.
-    - hissing!
+    - hissed
 
 - type: emote
   id: Meow
@@ -1023,41 +700,17 @@
   chatMessages: [meows.]
   chatTriggers:
     - meow
-    - meow.
-    - meow!
     - meows
-    - meows.
-    - meows!
-    - meowed
-    - meowed.
-    - meowed!
     - meowing
-    - meowing.
-    - meowing!
+    - meowed
     - miau
-    - miau.
-    - miau!
     - miaus
-    - miaus.
-    - miaus!
-    - miaued
-    - miaued.
-    - miaued!
     - miauing
-    - miauing.
-    - miauing!
+    - miaued
     - miaow
-    - miaow.
-    - miaow!
     - miaows
-    - miaows.
-    - miaows!
-    - miaowed
-    - miaowed.
-    - miaowed!
     - miaowing
-    - miaowing.
-    - miaowing!
+    - miaowed
 
 - type: emote
   id: Mew
@@ -1066,17 +719,9 @@
   chatMessages: [mews.]
   chatTriggers:
     - mew
-    - mew.
-    - mew!
     - mews
-    - mews.
-    - mews!
-    - mewed
-    - mewed.
-    - mewed!
     - mewing
-    - mewing.
-    - mewing!
+    - mewed
 
 - type: emote
   id: Growl
@@ -1085,17 +730,9 @@
   chatMessages: [growls.]
   chatTriggers:
     - growl
-    - growl.
-    - growl!
     - growls
-    - growls.
-    - growls!
-    - growled
-    - growled.
-    - growled!
     - growling
-    - growling.
-    - growling!
+    - growled
 
 - type: emote
   id: Purr
@@ -1104,17 +741,9 @@
   chatMessages: [purrs.]
   chatTriggers:
     - purr
-    - purr.
-    - purr!
     - purrs
-    - purrs.
-    - purrs!
-    - purred
-    - purred.
-    - purred!
     - purring
-    - purring.
-    - purring!
+    - purred
 
 # More Lizzer Emotes
 
@@ -1125,17 +754,9 @@
   chatMessages: [trills.]
   chatTriggers:
     - trill
-    - trill.
-    - trill!
     - trills
-    - trills.
-    - trills!
-    - trilled
-    - trilled.
-    - trilled!
     - trilling
-    - trilling.
-    - trilling!
+    - trilled
 
 - type: emote
   id: Rattle
@@ -1144,14 +765,6 @@
   chatMessages: [rattles.]
   chatTriggers:
     - rattle
-    - rattle.
-    - rattle!
     - rattles
-    - rattles.
-    - rattles!
-    - rattled
-    - rattled.
-    - rattled!
     - rattling
-    - rattling.
-    - rattling!  
+    - rattled
