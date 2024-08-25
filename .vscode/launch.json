@@ -1,7 +1,4 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -18,7 +15,10 @@
             "type": "coreclr",
             "request": "launch",
             "program": "${workspaceFolder}/bin/Content.Client/Content.Client.dll",
-            "args": "--cvar display.compat=true",
+            "args": [
+                "--cvar",
+                "display.compat=true"
+            ],
             "console": "internalConsole",
             "stopAtEntry": false
         },
@@ -27,7 +27,10 @@
             "type": "coreclr",
             "request": "launch",
             "program": "${workspaceFolder}/bin/Content.Server/Content.Server.dll",
-            "args": [],
+            "args": [
+                "--config-file",
+                "${workspaceFolder}/bin/Content.Server/data/server_config.toml"
+            ],
             "console": "integratedTerminal",
             "stopAtEntry": false
         },
@@ -40,16 +43,55 @@
             "cwd": "${workspaceFolder}/Content.YAMLLinter",
             "console": "internalConsole",
             "stopAtEntry": false
+        },
+        {
+            "name": "Server (Release)",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "${workspaceFolder}/Content.Server",
+                "--configuration",
+                "Release",
+                "--config-file",
+                "${workspaceFolder}/bin/Content.Server/data/server_config.toml"
+            ],
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Client (Release)",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "${workspaceFolder}/Content.Client",
+                "--configuration",
+                "Release"
+            ],
+            "console": "internalConsole",
+            "stopAtEntry": false
         }
     ],
     "compounds": [
         {
-            "name": "Server/Client",
+            "name": "Server/Client (Dev)",
             "configurations": [
                 "Server",
                 "Client"
             ],
             "preLaunchTask": "build"
+        },
+        {
+            "name": "Server/Client (Release)",
+            "configurations": [
+                "Server (Release)",
+                "Client (Release)"
+            ]
         }
     ]
 }
