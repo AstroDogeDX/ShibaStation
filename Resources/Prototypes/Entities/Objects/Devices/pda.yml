@@ -234,6 +234,8 @@
     accentVColor: "#8900c9"
   - type: Icon
     state: pda-internsci
+  - type: AnomalyScanner
+  - type: NodeScanner
   - type: ActivatableSubUI
     key: enum.AnomalyScannerUiKey.Key
     verbOnly: true
