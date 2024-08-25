@@ -1,6 +1,13 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Fixed Sci Intern PDAs not being anomaly and node scanners. Oopsie! Get
+      back to work!
+    type: Fix
+  id: 93
+  time: '2024-08-25T14:40:46.452971'
+- author: AstroDoge
+  changes:
   - message: Small races (Felinids, Prime Kobolds and Dwarves) can be picked up with
       two free hands and carried, even stuffed into bags if they have enough space!
       Yoink!
