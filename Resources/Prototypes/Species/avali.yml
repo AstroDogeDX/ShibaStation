@@ -1,7 +1,7 @@
 - type: species
   id: Avali
   name: species-name-avali
-  roundStart: true
+  roundStart: false
   prototype: MobAvali
   sprites: MobAvaliSprites
   defaultSkinTone: "#ffff0f"
