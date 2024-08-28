@@ -91,3 +91,12 @@ chat-emote-msg-cathisses = hisses!
 chat-emote-msg-monkeyscreeches = screeches!
 chat-emote-msg-yawn = yawns.
 chat-emote-msg-snore = snores.
+
+chat-emote-msg-screamlikeman = screams like a man!
+chat-emote-msg-screamlikewoman = screams like a woman!
+chat-emote-msg-coughlikeman = coughs like a man.
+chat-emote-msg-coughlikewoman = coughs like a woman.
+chat-emote-msg-crylikeman = cries like a man!
+chat-emote-msg-crylikewoman = cries like a woman!
+chat-emote-msg-sneezelikeman = sneezes like a man.
+chat-emote-msg-sneezelikewoman = sneezes like a woman.

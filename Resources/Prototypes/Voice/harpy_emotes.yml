@@ -1,0 +1,300 @@
+# Harpy-specific emotes
+- type: emote
+  id: ScreamLikeCat
+  name: chat-emote-name-screamlikecat
+  category: Vocal
+  icon: Interface/Actions/scream.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-screamlikecat"]
+  chatTriggers:
+    - scream like a cat
+    - screams like a cat
+    - screamed like a cat
+    - screaming like a cat
+
+- type: emote
+  id: ScreamLikeMonkey
+  name: chat-emote-name-screamlikemonkey
+  category: Vocal
+  icon: Interface/Actions/scream.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-screamlikemonkey"]
+  chatTriggers:
+    - scream like a monkey
+    - screams like a monkey
+    - screamed like a monkey
+    - screaming like a monkey
+
+- type: emote
+  id: ScreamLikeMoth
+  name: chat-emote-name-screamlikemoth
+  category: Vocal
+  icon: Interface/Actions/scream.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-screamlikemoth"]
+  chatTriggers:
+    - scream like a moth
+    - screams like a moth
+    - screamed like a moth
+    - screaming like a moth
+
+- type: emote
+  id: ScreamLikeSkeleton
+  name: chat-emote-name-screamlikeskeleton
+  category: Vocal
+  icon: Interface/Actions/scream.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-screamlikeskeleton"]
+  chatTriggers:
+    - scream like a skeleton
+    - screams like a skeleton
+    - screamed like a skeleton
+    - screaming like a skeleton
+
+- type: emote
+  id: ScreamLikeLizard
+  name: chat-emote-name-screamlikelizard
+  category: Vocal
+  icon: Interface/Actions/scream.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-screamlikelizard"]
+  chatTriggers:
+    - scream like a lizard
+    - screams like a lizard
+    - screamed like a lizard
+    - screaming like a lizard
+
+- type: emote
+  id: ScreamLikeWilhelm
+  name: chat-emote-name-screamlikewilhelm
+  category: Vocal
+  icon: Interface/Actions/scream.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-screamlikewilhelm"]
+  chatTriggers:
+    - scream like Wilhelm
+    - screams like Wilhelm
+    - screamed like Wilhelm
+    - screaming like Wilhelm
+
+- type: emote
+  id: ScreamLikeVox
+  name: chat-emote-name-screamlikevox
+  category: Vocal
+  icon: Interface/Actions/scream.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-screamlikevox"]
+  chatTriggers:
+    - scream like a vox
+    - screams like a vox
+    - screamed like a vox
+    - screaming like a vox
+
+- type: emote
+  id: LaughLikeDiona
+  name: chat-emote-name-laughlikediona
+  category: Vocal
+  icon: Interface/Emotes/laugh.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-laughlikediona"]
+  chatTriggers:
+    - laugh like a diona
+    - laughs like a diona
+    - laughed like a diona
+    - laughing like a diona
+
+- type: emote
+  id: LaughLikeFerret
+  name: chat-emote-name-laughlikeferret
+  category: Vocal
+  icon: Interface/Emotes/laugh.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-laughlikeferret"]
+  chatTriggers:
+    - laugh like a ferret
+    - laughs like a ferret
+    - laughed like a ferret
+    - laughing like a ferret
+
+- type: emote
+  id: LaughLikeMoth
+  name: chat-emote-name-laughlikemoth
+  category: Vocal
+  icon: Interface/Emotes/laugh.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-laughlikemoth"]
+  chatTriggers:
+    - laugh like a moth
+    - laughs like a moth
+    - laughed like a moth
+    - laughing like a moth
+
+- type: emote
+  id: LaughLikeLizard
+  name: chat-emote-name-laughlikelizard
+  category: Vocal
+  icon: Interface/Emotes/laugh.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-laughlikelizard"]
+  chatTriggers:
+    - laugh like a lizard
+    - laughs like a lizard
+    - laughed like a lizard
+    - laughing like a lizard
+
+- type: emote
+  id: LaughLikeVox
+  name: chat-emote-name-laughlikevox
+  category: Vocal
+  icon: Interface/Emotes/laugh.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-laughlikevox"]
+  chatTriggers:
+    - laugh like a vox
+    - laughs like a vox
+    - laughed like a vox
+    - laughing like a vox
+
+- type: emote
+  id: ScreamLikeMan
+  name: chat-emote-name-screamlikeman
+  category: Vocal
+  icon: Interface/Actions/scream.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-screamlikeman"]
+  chatTriggers:
+    - scream like a man
+    - screams like a man
+    - screamed like a man
+    - screaming like a man
+
+- type: emote
+  id: ScreamLikeWoman
+  name: chat-emote-name-screamlikewoman
+  category: Vocal
+  icon: Interface/Actions/scream.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-screamlikewoman"]
+  chatTriggers:
+    - scream like a woman
+    - screams like a woman
+    - screamed like a woman
+    - screaming like a woman
+
+- type: emote
+  id: CoughLikeMan
+  name: chat-emote-name-coughlikeman
+  category: Vocal
+  icon: Interface/Actions/cough.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-coughlikeman"]
+  chatTriggers:
+    - cough like a man
+    - coughs like a man
+    - coughed like a man
+    - coughing like a man
+
+- type: emote
+  id: CoughLikeWoman
+  name: chat-emote-name-coughlikewoman
+  category: Vocal
+  icon: Interface/Actions/cough.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-coughlikewoman"]
+  chatTriggers:
+    - cough like a woman
+    - coughs like a woman
+    - coughed like a woman
+    - coughing like a woman
+
+- type: emote
+  id: CryLikeMan
+  name: chat-emote-name-crylikeman
+  category: Vocal
+  icon: Interface/Actions/cry.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-crylikeman"]
+  chatTriggers:
+    - cry like a man
+    - cries like a man
+    - cried like a man
+    - crying like a man
+
+- type: emote
+  id: CryLikeWoman
+  name: chat-emote-name-crylikewoman
+  category: Vocal
+  icon: Interface/Actions/cry.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-crylikewoman"]
+  chatTriggers:
+    - cry like a woman
+    - cries like a woman
+    - cried like a woman
+    - crying like a woman
+
+- type: emote
+  id: SneezeLikeMan
+  name: chat-emote-name-sneezelikeman
+  category: Vocal
+  icon: Interface/Actions/sneeze.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-sneezelikeman"]
+  chatTriggers:
+    - sneeze like a man
+    - sneezes like a man
+    - sneezed like a man
+    - sneezing like a man
+
+- type: emote
+  id: SneezeLikeWoman
+  name: chat-emote-name-sneezelikewoman
+  category: Vocal
+  icon: Interface/Actions/sneeze.png
+  whitelist:
+    components:
+    - HarpySinger
+  chatMessages: ["chat-emote-msg-sneezelikewoman"]
+  chatTriggers:
+    - sneeze like a woman
+    - sneezes like a woman
+    - sneezed like a woman
+    - sneezing like a woman
