@@ -32,6 +32,19 @@
                 "/consoleloggerparameters:'ForceNoAlign;NoSummary'"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Update Changelog",
+            "type": "shell",
+            "command": "${workspaceFolder}/Tools/update_changelog.bat",
+            "windows": {
+                "command": "${workspaceFolder}\\Tools\\update_changelog.bat"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
         }
     ]
 }
