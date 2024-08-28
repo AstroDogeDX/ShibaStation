@@ -1,6 +1,13 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Harpy emotes have been expanded to include specific human gendered noises.
+      Try 'crying like a woman' the next time you slip because you can't wear magboots.
+    type: Tweak
+  id: 94
+  time: '2024-08-28T21:48:45.356881'
+- author: AstroDoge
+  changes:
   - message: Fixed Sci Intern PDAs not being anomaly and node scanners. Oopsie! Get
       back to work!
     type: Fix
