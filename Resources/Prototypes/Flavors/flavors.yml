@@ -1098,7 +1098,7 @@
   id: bluepumpkin
   flavorType: Complex
   description: flavor-complex-blue-pumpkin
-  
+
 - type: flavor
   id: violets
   flavorType: Complex
@@ -1118,6 +1118,11 @@
   id: paintthinner
   flavorType: Complex
   description: flavor-complex-paint-thinner
+
+- type: flavor
+  id: cherry
+  flavorType: Complex
+  description: flavor-complex-cherry
 
 - type: flavor
   id: chemical-x
