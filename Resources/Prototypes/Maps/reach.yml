@@ -1,7 +1,7 @@
 - type: gameMap
   id: Reach
   mapName: 'Reach'
-  mapPath: /Maps/reach.yml
+  mapPath: /Maps/reach-ad.yml
   minPlayers: 0
   maxPlayers: 7
   stations:
@@ -26,6 +26,7 @@
             # supply
             Quartermaster: [ 1, 1 ]
             CargoTechnician: [ 1, 1 ]
+            SalvageSpecialist: [ 1, 1 ]
             # service
             Bartender: [ 1, 1 ]
             Botanist: [ 1, 1 ]
