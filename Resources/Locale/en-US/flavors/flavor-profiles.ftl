@@ -52,6 +52,7 @@ flavor-base-terrible = terrible
 flavor-base-mindful = mindful
 flavor-base-slightly-salty = slightly salty
 flavor-base-arousing = arousing
+flavor-base-chewy = chewy
 
 # Complex flavors. Put a flavor here when you want something that's more
 # specific.
@@ -178,6 +179,8 @@ flavor-complex-paint-thinner = like paint thinner
 flavor-complex-chemical-x = like you shouldn't have drank that
 flavor-complex-bluberinol = like blueberry pie and ice cream
 flavor-complex-pure-sex = like pure sex
+flavor-complex-paper = like mushy pulp
+flavor-complex-compressed-meat = like compressed meat
 
 # Drink-specific flavors.
 
