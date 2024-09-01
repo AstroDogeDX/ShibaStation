@@ -13,6 +13,18 @@
     - screams like a cat
     - screamed like a cat
     - screaming like a cat
+    - shriek like a cat
+    - shrieks like a cat
+    - shrieked like a cat
+    - shrieking like a cat
+    - screech like a cat
+    - screeches like a cat
+    - screeched like a cat
+    - screeching like a cat
+    - yell like a cat
+    - yells like a cat
+    - yelled like a cat
+    - yelling like a cat
 
 - type: emote
   id: ScreamLikeMonkey
@@ -28,6 +40,18 @@
     - screams like a monkey
     - screamed like a monkey
     - screaming like a monkey
+    - shriek like a monkey
+    - shrieks like a monkey
+    - shrieked like a monkey
+    - shrieking like a monkey
+    - screech like a monkey
+    - screeches like a monkey
+    - screeched like a monkey
+    - screeching like a monkey
+    - yell like a monkey
+    - yells like a monkey
+    - yelled like a monkey
+    - yelling like a monkey
 
 - type: emote
   id: ScreamLikeMoth
@@ -43,6 +67,18 @@
     - screams like a moth
     - screamed like a moth
     - screaming like a moth
+    - shriek like a moth
+    - shrieks like a moth
+    - shrieked like a moth
+    - shrieking like a moth
+    - screech like a moth
+    - screeches like a moth
+    - screeched like a moth
+    - screeching like a moth
+    - yell like a moth
+    - yells like a moth
+    - yelled like a moth
+    - yelling like a moth
 
 - type: emote
   id: ScreamLikeSkeleton
@@ -58,6 +94,18 @@
     - screams like a skeleton
     - screamed like a skeleton
     - screaming like a skeleton
+    - shriek like a skeleton
+    - shrieks like a skeleton
+    - shrieked like a skeleton
+    - shrieking like a skeleton
+    - screech like a skeleton
+    - screeches like a skeleton
+    - screeched like a skeleton
+    - screeching like a skeleton
+    - yell like a skeleton
+    - yells like a skeleton
+    - yelled like a skeleton
+    - yelling like a skeleton
 
 - type: emote
   id: ScreamLikeLizard
@@ -73,6 +121,18 @@
     - screams like a lizard
     - screamed like a lizard
     - screaming like a lizard
+    - shriek like a lizard
+    - shrieks like a lizard
+    - shrieked like a lizard
+    - shrieking like a lizard
+    - screech like a lizard
+    - screeches like a lizard
+    - screeched like a lizard
+    - screeching like a lizard
+    - yell like a lizard
+    - yells like a lizard
+    - yelled like a lizard
+    - yelling like a lizard
 
 - type: emote
   id: ScreamLikeWilhelm
@@ -88,6 +148,18 @@
     - screams like Wilhelm
     - screamed like Wilhelm
     - screaming like Wilhelm
+    - shriek like Wilhelm
+    - shrieks like Wilhelm
+    - shrieked like Wilhelm
+    - shrieking like Wilhelm
+    - screech like Wilhelm
+    - screeches like Wilhelm
+    - screeched like Wilhelm
+    - screeching like Wilhelm
+    - yell like Wilhelm
+    - yells like Wilhelm
+    - yelled like Wilhelm
+    - yelling like Wilhelm
 
 - type: emote
   id: ScreamLikeVox
@@ -103,6 +175,18 @@
     - screams like a vox
     - screamed like a vox
     - screaming like a vox
+    - shriek like a vox
+    - shrieks like a vox
+    - shrieked like a vox
+    - shrieking like a vox
+    - screech like a vox
+    - screeches like a vox
+    - screeched like a vox
+    - screeching like a vox
+    - yell like a vox
+    - yells like a vox
+    - yelled like a vox
+    - yelling like a vox
 
 - type: emote
   id: LaughLikeDiona
@@ -118,6 +202,18 @@
     - laughs like a diona
     - laughed like a diona
     - laughing like a diona
+    - chuckle like a diona
+    - chuckles like a diona
+    - chuckled like a diona
+    - chuckling like a diona
+    - giggle like a diona
+    - giggles like a diona
+    - giggled like a diona
+    - giggling like a diona
+    - chortle like a diona
+    - chortles like a diona
+    - chortled like a diona
+    - chortling like a diona
 
 - type: emote
   id: LaughLikeFerret
@@ -133,6 +229,18 @@
     - laughs like a ferret
     - laughed like a ferret
     - laughing like a ferret
+    - chuckle like a ferret
+    - chuckles like a ferret
+    - chuckled like a ferret
+    - chuckling like a ferret
+    - giggle like a ferret
+    - giggles like a ferret
+    - giggled like a ferret
+    - giggling like a ferret
+    - chortle like a ferret
+    - chortles like a ferret
+    - chortled like a ferret
+    - chortling like a ferret
 
 - type: emote
   id: LaughLikeMoth
@@ -148,6 +256,18 @@
     - laughs like a moth
     - laughed like a moth
     - laughing like a moth
+    - chuckle like a moth
+    - chuckles like a moth
+    - chuckled like a moth
+    - chuckling like a moth
+    - giggle like a moth
+    - giggles like a moth
+    - giggled like a moth
+    - giggling like a moth
+    - chortle like a moth
+    - chortles like a moth
+    - chortled like a moth
+    - chortling like a moth
 
 - type: emote
   id: LaughLikeLizard
@@ -163,6 +283,18 @@
     - laughs like a lizard
     - laughed like a lizard
     - laughing like a lizard
+    - chuckle like a lizard
+    - chuckles like a lizard
+    - chuckled like a lizard
+    - chuckling like a lizard
+    - giggle like a lizard
+    - giggles like a lizard
+    - giggled like a lizard
+    - giggling like a lizard
+    - chortle like a lizard
+    - chortles like a lizard
+    - chortled like a lizard
+    - chortling like a lizard
 
 - type: emote
   id: LaughLikeVox
@@ -178,6 +310,18 @@
     - laughs like a vox
     - laughed like a vox
     - laughing like a vox
+    - chuckle like a vox
+    - chuckles like a vox
+    - chuckled like a vox
+    - chuckling like a vox
+    - giggle like a vox
+    - giggles like a vox
+    - giggled like a vox
+    - giggling like a vox
+    - chortle like a vox
+    - chortles like a vox
+    - chortled like a vox
+    - chortling like a vox
 
 - type: emote
   id: ScreamLikeMan
@@ -193,6 +337,18 @@
     - screams like a man
     - screamed like a man
     - screaming like a man
+    - shriek like a man
+    - shrieks like a man
+    - shrieked like a man
+    - shrieking like a man
+    - screech like a man
+    - screeches like a man
+    - screeched like a man
+    - screeching like a man
+    - yell like a man
+    - yells like a man
+    - yelled like a man
+    - yelling like a man
 
 - type: emote
   id: ScreamLikeWoman
@@ -208,6 +364,18 @@
     - screams like a woman
     - screamed like a woman
     - screaming like a woman
+    - shriek like a woman
+    - shrieks like a woman
+    - shrieked like a woman
+    - shrieking like a woman
+    - screech like a woman
+    - screeches like a woman
+    - screeched like a woman
+    - screeching like a woman
+    - yell like a woman
+    - yells like a woman
+    - yelled like a woman
+    - yelling like a woman
 
 - type: emote
   id: CoughLikeMan
@@ -253,6 +421,14 @@
     - cries like a man
     - cried like a man
     - crying like a man
+    - sob like a man
+    - sobs like a man
+    - sobbed like a man
+    - sobbing like a man
+    - weep like a man
+    - weeps like a man
+    - wept like a man
+    - weeping like a man
 
 - type: emote
   id: CryLikeWoman
@@ -268,6 +444,14 @@
     - cries like a woman
     - cried like a woman
     - crying like a woman
+    - sob like a woman
+    - sobs like a woman
+    - sobbed like a woman
+    - sobbing like a woman
+    - weep like a woman
+    - weeps like a woman
+    - wept like a woman
+    - weeping like a woman
 
 - type: emote
   id: SneezeLikeMan
