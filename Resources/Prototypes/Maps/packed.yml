@@ -1,7 +1,7 @@
 - type: gameMap
   id: Packed
   mapName: 'Packed'
-  mapPath: /Maps/packed.yml
+  mapPath: /Maps/packed-ai.yml
   minPlayers: 0
   maxPlayers: 40
   stations:
@@ -17,6 +17,7 @@
           availableJobs:
             #service
             Captain: [ 1, 1 ]
+            StationAi: [ 1, 1 ]
             HeadOfPersonnel: [ 1, 1 ]
             Bartender: [ 1, 1 ]
             Botanist: [ 1, 2 ]
