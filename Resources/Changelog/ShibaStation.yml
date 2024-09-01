@@ -1,6 +1,20 @@
 Entries:
 - author: AstroDoge
   changes:
+  - message: Packed and Omega now have Station AI support. Reach has its missing HoD
+      spawns added, but no one should play Reach anyway.
+    type: Tweak
+  id: 96
+  time: '2024-09-01T04:15:54.625460'
+- author: AstroDoge
+  changes:
+  - message: Expanded harpy emotes to include synonyms for laughing, crying, and screaming.
+      Now you can giggle like a moth.
+    type: Tweak
+  id: 95
+  time: '2024-09-01T04:14:45.098826'
+- author: AstroDoge
+  changes:
   - message: Harpy emotes have been expanded to include specific human gendered noises.
       Try 'crying like a woman' the next time you slip because you can't wear magboots.
     type: Tweak
