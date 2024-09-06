@@ -14,3 +14,7 @@ species-name-harpy = Harpy
 species-name-felinid = Felinid
 species-name-enferhunde = Enferhunde
 species-name-prime-kobold = Prime Kobold
+
+## Misc species things
+
+snail-hurt-by-salt-popup = The salty solution burns like acid!
