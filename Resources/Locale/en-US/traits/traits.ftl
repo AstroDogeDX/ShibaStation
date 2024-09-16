@@ -73,3 +73,9 @@ trait-defaultvision-desc = You lack any vision variation from the norm for a non
 
 trait-uncloneable-name = Uncloneable
 trait-uncloneable-desc = Cannot be cloned
+
+trait-french-name = French accent
+trait-french-desc = Your accent seems to have a certain «je ne sais quoi».
+
+trait-spanish-name = Spanish accent
+trait-spanish-desc = Hola señor, donde esta la biblioteca.

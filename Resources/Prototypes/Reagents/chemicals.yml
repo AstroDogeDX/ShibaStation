@@ -181,3 +181,23 @@
         damage:
           types:
             Cellular: 2.5 # Since it's supposed to alter the chems it's mixed with, drinking it raw will try to alter your DNA instead.
+
+- type: reagent
+  id: Rororium
+  name: reagent-name-rororium
+  desc: reagent-desc-rororium
+  group: Biological
+  flavor: tingly
+  physicalDesc: reagent-physical-desc-refreshing
+  color: "#bf1365"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          groups:
+            Brute: -4
+      - !type:GenericStatusEffect
+        key: Adrenaline
+        component: IgnoreSlowOnDamage
+        time: 120

@@ -4502,6 +4502,7 @@ entities:
             8611: -11,8
             8728: 19,-31
             8729: 18,-31
+            8734: 126,-4
         - node:
             cleanable: True
             color: '#FFFFFFFF'
@@ -21333,13 +21334,6 @@ entities:
     - type: Transform
       pos: 41.59153,-33.7406
       parent: 13329
-- proto: AntimovCircuitBoard
-  entities:
-  - uid: 35743
-    components:
-    - type: Transform
-      pos: 107.49631,52.741814
-      parent: 13329
 - proto: AntiPoisonMedipen
   entities:
   - uid: 35283
@@ -29198,6 +29192,18 @@ entities:
     - type: Transform
       pos: -12.619463,10.37907
       parent: 13329
+- proto: Biogenerator
+  entities:
+  - uid: 1368
+    components:
+    - type: Transform
+      pos: -7.5,36.5
+      parent: 13329
+  - uid: 34659
+    components:
+    - type: Transform
+      pos: 49.5,23.5
+      parent: 13329
 - proto: BlastDoor
   entities:
   - uid: 3013
@@ -29330,9 +29336,10 @@ entities:
     - type: Transform
       pos: 108.5,-36.5
       parent: 13329
-  - uid: 34659
+  - uid: 27054
     components:
     - type: Transform
+      rot: 1.5707963267948966 rad
       pos: 129.5,-3.5
       parent: 13329
 - proto: BlastDoorOpen
@@ -30535,6 +30542,14 @@ entities:
     components:
     - type: Transform
       pos: -5.4753895,28.569885
+      parent: 13329
+- proto: ButtonFrameCaution
+  entities:
+  - uid: 27081
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 127.5,-2.5
       parent: 13329
 - proto: ButtonFrameExit
   entities:
@@ -97648,41 +97663,47 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 19.5,-8.5
       parent: 13329
-  - uid: 27053
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 130.5,-3.5
-      parent: 13329
-  - uid: 27054
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 129.5,-3.5
-      parent: 13329
-  - uid: 27055
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 125.5,-8.5
-      parent: 13329
-  - uid: 27056
+  - uid: 26976
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 124.5,-8.5
       parent: 13329
-  - uid: 27057
+  - uid: 26977
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
-      pos: 123.5,-8.5
+      pos: 129.5,-3.5
+      parent: 13329
+  - uid: 26978
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 130.5,-3.5
+      parent: 13329
+  - uid: 27055
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 128.5,-3.5
+      parent: 13329
+  - uid: 27056
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 127.5,-3.5
+      parent: 13329
+  - uid: 27057
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 126.5,-4.5
       parent: 13329
   - uid: 27058
     components:
     - type: Transform
       rot: 3.141592653589793 rad
-      pos: 126.5,-8.5
+      pos: 126.5,-5.5
       parent: 13329
   - uid: 27059
     components:
@@ -97694,37 +97715,19 @@ entities:
     components:
     - type: Transform
       rot: 3.141592653589793 rad
-      pos: 126.5,-6.5
+      pos: 126.5,-8.5
       parent: 13329
   - uid: 27061
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 126.5,-5.5
+      rot: 1.5707963267948966 rad
+      pos: 123.5,-8.5
       parent: 13329
-  - uid: 27062
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 126.5,-4.5
-      parent: 13329
-  - uid: 27063
+  - uid: 32424
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
-      pos: 126.5,-3.5
-      parent: 13329
-  - uid: 27064
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 127.5,-3.5
-      parent: 13329
-  - uid: 34655
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 131.5,-3.5
+      pos: 125.5,-8.5
       parent: 13329
 - proto: CorporateCircuitBoard
   entities:
@@ -100602,11 +100605,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 68.5,-25.5
       parent: 13329
-  - uid: 26978
-    components:
-    - type: Transform
-      pos: 123.5,-7.5
-      parent: 13329
   - uid: 26979
     components:
     - type: Transform
@@ -100639,6 +100637,17 @@ entities:
     components:
     - type: Transform
       pos: 100.5,10.5
+      parent: 13329
+  - uid: 27063
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 121.5,-8.5
+      parent: 13329
+  - uid: 27064
+    components:
+    - type: Transform
+      pos: 121.5,-7.5
       parent: 13329
   - uid: 27727
     components:
@@ -106360,17 +106369,11 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 120.5,-7.5
       parent: 13329
-  - uid: 26975
+  - uid: 27080
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
-      pos: 121.5,-7.5
-      parent: 13329
-  - uid: 26976
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 122.5,-7.5
+      pos: 122.5,-8.5
       parent: 13329
   - uid: 27713
     components:
@@ -109225,10 +109228,10 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 75.5,-23.5
       parent: 13329
-  - uid: 26977
+  - uid: 27062
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
+      rot: -1.5707963267948966 rad
       pos: 123.5,-8.5
       parent: 13329
   - uid: 27711
@@ -115850,11 +115853,13 @@ entities:
     - type: Transform
       pos: 131.71098,-3.6476665
       parent: 13329
+    - type: Conveyed
   - uid: 34758
     components:
     - type: Transform
       pos: 131.32036,-3.2101665
       parent: 13329
+    - type: Conveyed
 - proto: FoodBoxDonkpocketPizza
   entities:
   - uid: 21337
@@ -116167,6 +116172,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 130.64848,-3.0851665
       parent: 13329
+    - type: Conveyed
 - proto: FoodTinMRETrash
   entities:
   - uid: 34766
@@ -166465,13 +166471,6 @@ entities:
     - type: Transform
       pos: 13.5,-28.5
       parent: 13329
-- proto: OverlordCircuitBoard
-  entities:
-  - uid: 35769
-    components:
-    - type: Transform
-      pos: 108.49631,46.60119
-      parent: 13329
 - proto: OxygenCanister
   entities:
   - uid: 6546
@@ -167506,9 +167505,10 @@ entities:
     - type: Transform
       pos: 52.5,-28.5
       parent: 13329
-  - uid: 34658
+  - uid: 34655
     components:
     - type: Transform
+      rot: 1.5707963267948966 rad
       pos: 129.5,-3.5
       parent: 13329
 - proto: PlasticFlapsAirtightOpaque
@@ -174414,11 +174414,6 @@ entities:
     - type: Transform
       pos: -16.5,37.5
       parent: 13329
-  - uid: 1368
-    components:
-    - type: Transform
-      pos: -7.5,36.5
-      parent: 13329
   - uid: 1369
     components:
     - type: Transform
@@ -177796,11 +177791,10 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 18.5,-24.5
       parent: 13329
-  - uid: 27052
+  - uid: 34658
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 128.5,-3.5
+      pos: 126.5,-6.5
       parent: 13329
 - proto: ReinforcedPlasmaWindow
   entities:
@@ -183810,15 +183804,6 @@ entities:
         - Pressed: Toggle
         31550:
         - Pressed: Toggle
-  - uid: 32424
-    components:
-    - type: Transform
-      pos: 127.5,-5.5
-      parent: 13329
-    - type: DeviceLinkSource
-      linkedPorts:
-        34659:
-        - Pressed: Toggle
   - uid: 32703
     components:
     - type: Transform
@@ -183994,6 +183979,16 @@ entities:
       linkedPorts:
         29006:
         - Pressed: DoorBolt
+  - uid: 26975
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 127.5,-2.5
+      parent: 13329
+    - type: DeviceLinkSource
+      linkedPorts:
+        27054:
+        - Pressed: Toggle
   - uid: 35603
     components:
     - type: Transform
@@ -199216,17 +199211,13 @@ entities:
         - Left: Forward
         - Right: Reverse
         - Middle: Off
-  - uid: 27080
+  - uid: 27052
     components:
     - type: Transform
-      pos: 125.5,-7.5
+      pos: 126.5,-2.5
       parent: 13329
     - type: DeviceLinkSource
       linkedPorts:
-        27057:
-        - Left: Forward
-        - Right: Reverse
-        - Middle: Off
         27056:
         - Left: Forward
         - Right: Reverse
@@ -199235,11 +199226,30 @@ entities:
         - Left: Forward
         - Right: Reverse
         - Middle: Off
-        27058:
+        26977:
         - Left: Forward
         - Right: Reverse
         - Middle: Off
-        27059:
+        26978:
+        - Left: Forward
+        - Right: Reverse
+        - Middle: Off
+  - uid: 27053
+    components:
+    - type: Transform
+      pos: 125.5,-7.5
+      parent: 13329
+    - type: DeviceLinkSource
+      linkedPorts:
+        27061:
+        - Left: Forward
+        - Right: Reverse
+        - Middle: Off
+        26976:
+        - Left: Forward
+        - Right: Reverse
+        - Middle: Off
+        32424:
         - Left: Forward
         - Right: Reverse
         - Middle: Off
@@ -199247,44 +199257,21 @@ entities:
         - Left: Forward
         - Right: Reverse
         - Middle: Off
-        27061:
+        27059:
         - Left: Forward
         - Right: Reverse
         - Middle: Off
-        27062:
+        27058:
         - Left: Forward
         - Right: Reverse
         - Middle: Off
-        27063:
+        27057:
         - Left: Forward
         - Right: Reverse
         - Middle: Off
-        27064:
-        - Left: Forward
-        - Right: Reverse
-        - Middle: Off
-        27054:
-        - Left: Forward
-        - Right: Reverse
-        - Middle: Off
-        27053:
-        - Left: Forward
-        - Right: Reverse
-        - Middle: Off
-        34655:
-        - Left: Forward
-        - Right: Reverse
-        - Middle: Off
-  - uid: 27081
-    components:
-    - type: Transform
-      pos: 125.5,-3.5
-      parent: 13329
-    - type: DeviceLinkSource
-      linkedPorts:
-        27052:
-        - Left: Forward
-        - Right: Reverse
+        34658:
+        - Right: Forward
+        - Left: Reverse
         - Middle: Off
 - proto: UnfinishedMachineFrame
   entities:

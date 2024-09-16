@@ -179,6 +179,9 @@ flavor-complex-paint-thinner = like paint thinner
 flavor-complex-chemical-x = like you shouldn't have drank that
 flavor-complex-bluberinol = like blueberry pie and ice cream
 flavor-complex-pure-sex = like pure sex
+flavor-complex-numbing-tranquility = like numbing tranquility
+flavor-complex-true-nature = like the true nature of reality
+flavor-complex-false-meat = not entirely unlike meat
 flavor-complex-paper = like mushy pulp
 flavor-complex-compressed-meat = like compressed meat
 
